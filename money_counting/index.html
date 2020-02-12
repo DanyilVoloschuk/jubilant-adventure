@@ -7,27 +7,36 @@
 
 <div layout='col' ng-controller='secondCtrl'>
 	<form>
-       <label>Name: <input type='text' ng-model='_name'/></label><br />
-       <label>Price: <input type='text' ng-model='price'/></label><br />
+       <label>Text: <input type='text' ng-model='_name'/></label><br />
+       <label>Price: <input type='number' ng-model='price'/></label><br />
        <select ng-model="selectedType">
-       	<option ng-repeat="typ in types" value="{{typ.nm}}">{{typ.nm}}</option>
+       	<option ng-repeat="typ in types" value="{{typ.nm}}">{{ typ.nm }}</option>
        </select>
-       <button class="md-raised" type="submit" ng-click='add(_name, price, selectedType)'>btn</button>
+       <input type="submit" ng-click='add(a=_name, b=price, c=selectedType)'>
    </form>
 </div>
-
 <div layout='col' ng-controller='firstCtrl'>
+	<select 
+	ng-model="sorting"
+	md-on-close="sortList(sorting)"
+	>
+       	<option ng-repeat="typ in myFactory.types" value="{{typ.nm}}">{{ typ.nm }}</option>
+   	</select>
 	<ul style="list-style-type:none">	
-		<div ng-repeat="val in myFactory.list"> 
-			<li >
-				<p >name: {{ val.thisname }}</p>
-				<p >price: {{ val.thisprice }}</p>
-				<p >type: <b>{{ val.thistype }}</b>
+		<div ng-repeat="val in current_list"> 
+			<li id="{{ 'id-'+val.thisname  }}">
+				<p>comment: {{ val.thisname }} <button onclick="">🏇</button></p>
+				<p>price: {{ val.thisprice }} </p>
+				<p>type: <b>{{ val.thistype }} </b></p>
+				
 			<li>
 		</div>
 	</ul>
 </div>
 <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js'></script>
+<script src="" >
+
+</script>
 <script type='text/javascript' src='main.js'></script>
 </body>
 </html>
