@@ -1,42 +1,54 @@
 <html ng-app='app'>
 <head>
-<title></title>
-<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.css">
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.9/angular-material.min.css">
+<style type="text/css">
+
+</style>
 </head>
 <body>
-
-<div layout='col' ng-controller='secondCtrl'>
+  
+<div layout='collumn' ng-controller='secondCtrl'>
 	<form>
-       <label>Text: <input type='text' ng-model='_name'/></label><br />
-       <label>Price: <input type='number' ng-model='price'/></label><br />
-       <select ng-model="selectedType">
-       	<option ng-repeat="typ in types" value="{{typ.nm}}">{{ typ.nm }}</option>
-       </select>
-       <input type="submit" ng-click='add(a=_name, b=price, c=selectedType)'>
+		<md-input-container class="md-block">
+      	<label>Text: </label><input required type='text' ng-model='_name'><br>
+		</md-input-container>
+		<md-input-container class="md-block">       
+      	<label>Price: </label><input required type='number' ng-model='price'><br>
+		</md-input-container>
+		<md-input-container class="md-block">
+			<label>Pay type</label>       
+      	<md-select ng-model="selectedType">
+       		<md-option ng-repeat="typ in types" value="{{typ.nm}}">{{ typ.nm }}</md-option>
+      	</md-select>
+      </md-input-container>
+      <md-button class="md-raised" type="submit" ng-click='add(a=_name, b=price, c=selectedType)'>Add</md-button>
    </form>
 </div>
-<div layout='col' ng-controller='firstCtrl'>
-	<select 
-	ng-model="sorting"
-	md-on-close="sortList(sorting)"
-	>
-       	<option ng-repeat="typ in myFactory.types" value="{{typ.nm}}">{{ typ.nm }}</option>
-   	</select>
-	<ul style="list-style-type:none">	
-		<div ng-repeat="val in current_list"> 
-			<li id="{{ 'id-'+val.thisname  }}">
-				<p>🏇comment🏇: {{ val.thisname }} 🏇<button onclick="">🏇</button></p>
-				<p>🏇price🏇: {{ val.thisprice }} 🏇</p>
-				<p>🏇type🏇: <b>{{ val.thistype }} </b>🏇</p>
-				
-			<li>
-		</div>
-	</ul>
-</div>
-<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js'></script>
-<script src="" >
 
-</script>
+<div layout='collumn' ng-controller='firstCtrl' style="overflow: auto; background-color: gray;">
+	<div ng-repeat="val in current_list | filter {thistype: paytype}">
+		<div id="{{ 'id-'+val.thisname  }}" style="display: block;">
+			<md-card md-theme="default">
+        		<md-card-title>
+          		<md-card-title-text>
+            		<span class="md-headline">Payment</span>
+            		<span class="md-subhead">comment: <br>{{ val.thisname }}</span>
+						<span class="md-subhead">price: <br>{{ val.thisprice }}</span>
+						<span class="md-subhead">type: <br><b>{{ val.thistype }}</b></span>
+          		</md-card-title-text>
+        		</md-card-title>
+        		<md-card-actions layout="row" layout-align="center">
+        			<md-button class="md-warn" ng-click="delete_block({{ 'id-'+val.thisname  }})">delete</md-button>
+        		</md-card-actions>
+     		</md-card>
+      </div>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular-animate.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular-aria.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular-messages.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.9/angular-material.min.js"></script>  
 <script type='text/javascript' src='main.js'></script>
 </body>
 </html>

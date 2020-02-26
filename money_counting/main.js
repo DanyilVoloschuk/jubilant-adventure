@@ -1,8 +1,34 @@
-var app = angular.module('app', [])
+var app = angular.module('app', ['ngMaterial', 'ngMessages'])
 
-app.controller('secondCtrl', function ($scope, myFactory) {
+app.controller('secondCtrl', function ($scope, myFactory, $http) {
 	$scope.myFactory = myFactory
-	$scope.myFactory.list = [{thisname: 'Mario', thisprice: 23, thistype: 'clothes'}]	
+	$scope.myFactory.list = [
+	{thisname: 'it was today', thisprice: 15, thistype: 'transport'},
+	{thisname: 'here I am', thisprice: 23, thistype: 'clothes'},
+	{thisname: 'What?', thisprice: 18, thistype: 'food'},
+	{thisname: 'PeroxWhy?Gen', thisprice: 11, thistype: 'subscribes'},
+	{thisname: 'Mario', thisprice: 120, thistype: 'smth else'},
+	{thisname: 'it was today', thisprice: 15, thistype: 'transport'},
+	{thisname: 'here I am', thisprice: 23, thistype: 'clothes'},
+	{thisname: 'What?', thisprice: 18, thistype: 'food'},
+	{thisname: 'PeroxWhy?Gen', thisprice: 11, thistype: 'subscribes'},
+	{thisname: 'Mario', thisprice: 120, thistype: 'smth else'},
+	{thisname: 'it was today', thisprice: 15, thistype: 'transport'},
+	{thisname: 'here I am', thisprice: 23, thistype: 'clothes'},
+	{thisname: 'What?', thisprice: 18, thistype: 'food'},
+	{thisname: 'PeroxWhy?Gen', thisprice: 11, thistype: 'subscribes'},
+	{thisname: 'Mario', thisprice: 120, thistype: 'smth else'}
+]	
+   /*$http({
+	  method: 'GET',
+	  url: 'payments/payment.json'
+	}).then(function successCallback(response) {
+	    $scope.myFactory.list = response.data
+	    console.log('c:')
+	  }, function errorCallback(response) {
+	    console.log(':c')
+	  })*/
+
 	$scope._name = ''
 	$scope.price = ''
 	$scope.types = [
@@ -15,28 +41,20 @@ app.controller('secondCtrl', function ($scope, myFactory) {
 	$scope.myFactory.types = $scope.types
 	
 	$scope.add = function (a, b, c='') {
-		if (!a || !b) return		
 		$scope._name = ''
 		$scope.price = ''
 		$scope.myFactory.list.push({thisname: a, thisprice: b, thistype: c})
 		console.log(a, b, $scope.myFactory.list)
-	}	
+	}
+	
+	$scope.delete_block = function (id) {
+		document.GetElementById(id).style.display = 'none'	
+	}
 })
 
 app.controller('firstCtrl', function ($scope, myFactory) {
 	$scope.myFactory = myFactory
-	$scope.current_list = ''
 	$scope.current_list = $scope.myFactory.list
-	
-	$scope.sortList = function (sorting) {
-		if (sorting){
-			var a = []
-			for (let i = 0; i < $scope.myFactory.list.length; i++)
-				if ($scope.myFactory.list[i] == sorting)
-					a.push($scope.myFactory.list[i])
-			$scope.current_list = a
-		}
-	}
 })
 
 

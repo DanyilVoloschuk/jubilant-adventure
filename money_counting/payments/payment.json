@@ -1,0 +1,17 @@
+[
+	{thisname: 'it was today', thisprice: 15, thistype: 'transport'},
+	{thisname: 'here I am', thisprice: 23, thistype: 'clothes'},
+	{thisname: 'What?', thisprice: 18, thistype: 'food'},
+	{thisname: 'PeroxWhy?Gen', thisprice: 11, thistype: 'subscribes'},
+	{thisname: 'Mario', thisprice: 120, thistype: 'smth else'},
+	{{thisname: 'it was today', thisprice: 15, thistype: 'transport'},
+	{thisname: 'here I am', thisprice: 23, thistype: 'clothes'},
+	{thisname: 'What?', thisprice: 18, thistype: 'food'},
+	{thisname: 'PeroxWhy?Gen', thisprice: 11, thistype: 'subscribes'},
+	{thisname: 'Mario', thisprice: 120, thistype: 'smth else'},
+	{thisname: 'it was today', thisprice: 15, thistype: 'transport'},
+	{thisname: 'here I am', thisprice: 23, thistype: 'clothes'},
+	{thisname: 'What?', thisprice: 18, thistype: 'food'},
+	{thisname: 'PeroxWhy?Gen', thisprice: 11, thistype: 'subscribes'},
+	{thisname: 'Mario', thisprice: 120, thistype: 'smth else'}
+]	
