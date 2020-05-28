@@ -1,0 +1,186 @@
+
+    body {
+    background-color: White;
+  }
+    div.ex1 {
+
+        background-color: none;
+        min-width: 220px;
+        width: 20%;
+        max-height: 429px;
+        overflow: auto;
+        border-top: 4px solid gray;
+    }
+    div.ex2 {
+        background-color: lightgray;
+        display: inline-block;
+
+
+        border: 4px solid lightgray;
+        margin-left: 10px;
+    }
+    li.comment {
+
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: left;
+        border-color: lightgray;
+        border-style: solid;
+        background: lightgray;
+        background-position: left top;
+        background-repeat: repeat;
+        border-radius: 10px;
+        padding: 10px;
+        width: 80%;
+        max-height: 100%;
+
+    }
+    .btn{
+
+        margin-left: 85%;
+        background-color: DodgerBlue;
+        border: none;
+        color: white;
+        padding: 10px 13px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+    /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: gray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
+    html, body {
+    scrollbar-arrow-color: #fff; /* Цвет стрелок */
+    scrollbar-face-color: DodgerBlue; /* Цвет полосы прокрутки */
+    background: ; /* Цвет фона */
+
+    height: 100%;
+   }
+   input[name='user_name'] {
+        margin-left: 5%;
+        min-width:200px;
+        width: 100%;
+        padding: 10px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    textarea[name='comment_text'] {
+
+        margin-left: 5%;
+        width:200px;
+        padding: 10px 20px;
+        margin: 8px 0;
+        resize: none;
+        border: 2px lightgray;
+    }
+
+    .sbm_form {
+  background-color: white;
+  color: black;
+  border: 0px;
+  width: 100%;
+  padding: 8px 86px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 0px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.sbm_form:hover {
+  background-color: lightgray;
+  color: white;
+}
+.delCommentButton{
+    cursor: pointer;
+    background: url(https://image.flaticon.com/icons/svg/1828/1828595.svg);
+    float: right;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+}
+.editCommentButton{
+    cursor: pointer;
+    background: url(https://image.flaticon.com/icons/svg/1828/1828595.svg);
+    float: left;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+}
+@media only screen and (max-width: 750px) {
+
+  div.ex1 {
+        display: inline-block;
+        text-align: left;
+        font-size: 130%;
+        background-color: lightgray;
+        min-width: 310px;
+        width: 90%;
+        max-height: 60%;
+        overflow: auto;
+        border-top: 2px solid lightgray;
+        border-right: 2px solid lightgray;
+    }
+  div.ex2 {
+        background-color: lightgray;
+
+        display:inline-block;
+        font-size: 150%;
+        min-width: 310px;
+        width: 90%;
+        min-height:250px;
+        height: 40%;
+        max-height:300px;
+        border: none;
+        margin-left: 0px;
+        margin-top: 1px;
+        border-right: 2px solid lightgray;
+    }
+  textarea[name='comment_text'] {
+        height: 40%;
+        margin-left: 5%;
+        width:100%;
+        padding: 10px 20px;
+        margin: 8px 0;
+        resize: none;
+
+    }
+
+    li.comment {
+        padding: 0px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        text-align: left;
+        border-color: lightgray;
+        border-style: solid;
+        border-top: 2px solid lightgray;
+        border-bottom: 2px solid lightgray;
+        border-left: none;
+        border-right: none;
+        background: white;
+        background-position: left top;
+        background-repeat: repeat;
+        padding: 1px;
+        width: 90%;
+        max-height: 100%;
+
+    }
+}

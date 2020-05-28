@@ -39,7 +39,9 @@ app.controller('secondCtrl', function ($scope, myFactory, $http) {
 		{nm: 'smth else'}	
 	]
 	$scope.myFactory.types = $scope.types
-	
+	$scope.a = function () {
+		console.log($scope.tme)	
+	}
 	$scope.add = function (a, b, c='') {
 		$scope._name = ''
 		$scope.price = ''

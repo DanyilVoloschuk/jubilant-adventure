@@ -5,9 +5,9 @@
 
 </style>
 </head>
-<body>
-  
+
 <div layout='collumn' ng-controller='secondCtrl'>
+	<input ng-model='tme' type="time" /><md-button ng-click='a()'>X</md-button>
 	<form>
 		<md-input-container class="md-block">
       	<label>Text: </label><input required type='text' ng-model='_name'><br>
@@ -26,7 +26,7 @@
 </div>
 
 <div layout='collumn' ng-controller='firstCtrl' style="overflow: auto; background-color: gray;">
-	<div ng-repeat="val in current_list | filter {thistype: paytype}">
+	<div ng-repeat="val in current_list">
 		<div id="{{ 'id-'+val.thisname  }}" style="display: block;">
 			<md-card md-theme="default">
         		<md-card-title>

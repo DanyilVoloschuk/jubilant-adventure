@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>{% block title %} {% endblock %}</title>
+    <style>
+    #rcorners3 {
+        border-radius: 1150px;
+        border-color: black;
+        border-style: solid;
+        background: url(http://amandapr.com/wp-content/uploads/2018/04/paper-bg-1.jpg);
+        background-position: left top;
+        background-repeat: repeat;
+        padding: 20px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .button {
+           -webkit-transition-duration: 0.4s;
+           transition-duration: 0.4s;
+        }
+
+    .button:hover {
+        background-color: solid black;
+        color: white;
+        }
+    </style>
+</head>
+<body bgcolor=#669999>
+
+    {% block content %} {% endblock %}
+</body>
+</html>

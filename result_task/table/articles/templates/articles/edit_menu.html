@@ -1,0 +1,24 @@
+{% extends "edit.html" %}
+{% load static %}
+{% block editmenu %}
+<h1>EDIT MENU</h1>
+<form action="edit_confirm/" method="POST" style="display: inline-block;">
+    name: <input type="text" name="FirstName" value="{{ person.name }}" style = "border: none; border-bottom: 2px solid red;">
+    adress:
+    <select name="DropDownMenu">
+        
+        {% for street in streets %}
+            {% if street.id == person.street.id %}
+                <option selected value="{{ street.id }}">{{ person.street.name }}</option>
+            {% else %}
+                <option value="{{ street.id }}">{{ street.name }}</option>
+            {% endif %}
+        {% endfor %}
+    </select>
+    <input type="submit" value="save" style="background-color: white; font-size: 20px; border: 2px solid #f44336; border-radius: 12px;">
+</form>
+<form action="cancel/" style="display: inline-block;">
+    {% csrf_token %}
+    <button type="submit" name="button" style="background-color: white; font-size: 20px; border: 2px solid #4CAF50; border-radius: 12px;">Cancel</button>
+</form>
+{% endblock %}

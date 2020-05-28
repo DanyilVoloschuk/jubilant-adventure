@@ -48,7 +48,7 @@ app.controller('secondCtrl', function ($scope, myFactory, $http) {
 	}
 	
 	$scope.delete_block = function (id) {
-			
+		document.GetElementById(id).style.display = 'none'	
 	}
 })
 

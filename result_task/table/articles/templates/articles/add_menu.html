@@ -1,0 +1,18 @@
+{% extends "add.html" %}
+{% load static %}
+{% csrf_token %}
+{% block addmenu %}
+<form action="add_new_confirm/" method="POST">
+    name: <input type="text" name="FirstName" value="Mickey" style = "border: none; border-bottom: 2px solid red;">
+    adress:
+    <select name="DropDownMenu">
+        {% for street in streets %}
+        <option value="{{street.name}}">{{street.name}}</option>
+        {% endfor %}
+    </select>
+    <input type="submit" value="add" style="background-color: white; font-size: 20px; border: 2px solid #f44336; border-radius: 12px;">
+</form>
+<form action="cancel/">
+    <button type="submit" name="button" style="background-color: white; font-size: 20px; border: 2px solid #4CAF50; border-radius: 12px;">Cancel</button>
+</form>
+{% endblock %}

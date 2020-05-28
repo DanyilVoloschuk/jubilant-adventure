@@ -1,0 +1,35 @@
+{% extends "search.html" %}
+{% block content %}
+<h1>Results for "{{ req_name }}:"</h1>
+{% if persons %}
+
+<ul>
+    <center>
+    {% for person in persons %}
+        <li style="list-style-type:none; display: inline-block;" id="rcorners3">
+            <br><br><br><br><br>
+          <p><b>{{ person.name }}</b> <small><i>{{ person.street.name }}</i></small></p>
+
+            <form action='delete/{{ person.id }}' method='GET'>
+             <button type='submit' class="button" onMouseOver="this.style.color='red'"
+        onMouseOut="this.style.color='black'" style="background-color: white; font-size: 20px; border: 2px solid red; border-radius: 6px;">delete</button>
+         </form>
+          <form action='edit/{{ person.id }}' method='GET'>
+              <button type='submit' class="button" onMouseOver="this.style.color='green'"
+        onMouseOut="this.style.color='black'" style="background-color: white; font-size: 20px; border: 2px solid black; border-radius: 6px;">edit</button>
+        </form>
+
+        </li>
+    {% endfor %}
+</ul>
+
+{% else %}
+<h3>No city with name "{{ req_name }}"</h3>
+{% endif %}
+<center>
+<form action="cancel/" style="display: inline-block;">
+    {% csrf_token %}
+    <button type="submit" name="button" style="background-color: white; font-size: 20px; border: 2px solid #4CAF50; border-radius: 12px;">Cancel</button>
+</form>
+</center>
+{% endblock %}

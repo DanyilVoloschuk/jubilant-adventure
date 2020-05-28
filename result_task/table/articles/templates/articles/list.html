@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block title %} last added {% endblock %}
+
+{% block content %}
+<form action="search/" method="post" align="right">
+    {{ form }}
+    <input type="submit" value="Search">
+</form>
+<center>
+{% if last_person_added %}
+
+<ul>
+    {% for person in last_person_added %}
+        <li style="list-style-type:none; display: inline-block;" id="rcorners3">
+            <br><br><br><br><br>
+          <p><b>{{ person.name }}</b> <small><i>{{ person.street.name }}</i></small></p>
+
+            <form action='delete/{{ person.id }}' method='GET'>
+             <button type='submit' class="button" onMouseOver="this.style.color='red'"
+        onMouseOut="this.style.color='black'" style="background-color: white; font-size: 20px; border: 2px solid red; border-radius: 6px;">delete</button>
+         </form>
+          <form action='edit/{{ person.id }}' method='GET'>
+              <button type='submit' class="button" onMouseOver="this.style.color='green'"
+        onMouseOut="this.style.color='black'" style="background-color: white; font-size: 20px; border: 2px solid black; border-radius: 6px;">edit</button>
+        </form>
+
+        </li>
+    {% endfor %}
+    <li style="list-style-type:none;"><br><br><br>
+        <form action='add-new-human/' method='GET'>
+            <button type='submit' class="button" onMouseOver="this.style.color='red'"
+        onMouseOut="this.style.color='black'" style="background-color: white; font-size: 20px; border: 2px solid #f44336; border-radius: 10px;">add new</button>
+        </form>
+    </li>
+</ul>
+
+{% else %}
+
+    <li style="list-style-type:none;"><br><br><br>
+        <form action='add-new-human/' method='GET'>
+            <button type='submit' class="button" onMouseOver="this.style.color='red'"
+        onMouseOut="this.style.color='black'" style="background-color: white; font-size: 20px; border: 2px solid #f44336; border-radius: 2px;">add new</button>
+        </form>
+    </li>
+{% endif %}
+
+</center>
+{% endblock %}

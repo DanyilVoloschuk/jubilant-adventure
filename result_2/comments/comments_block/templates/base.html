@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Title</title>
+    {% load static %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+
+
+<div class="ex1" style="float: left;">
+<center>
+    {% csrf_token %}
+    <ul id="comments_list" style="list-style-type:none; padding: 0;">
+
+    </ul>
+</center>
+</div>
+<div class="ex2">
+{% csrf_token %}
+<form id="commentForm" method="POST" action="#" class="form" style="float: left;">
+    <label style="color: white;"> Name :</label><br>
+    <input name="user_name" type="text" maxlength="10" placeholder="Input your name here" id="input_area" style="border: 2px solid lightgray;"><br>
+    <label style="color: white;"> Comment :</label><br>
+    <textarea name="comment_text" placeholder="Input your comment here" id="text_area" style="border: 2px solid lightgray; height: 100px; width:82%;"></textarea><br>
+    <button type="Submit" class="sbm_form" style="border: 2px solid lightgray;">send</button>
+</form>
+</div>
+</body>
+
+<script src="{% static 'js/scripts.js' %}?ver=1.1"></script>

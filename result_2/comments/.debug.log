@@ -1,0 +1,1599 @@
+Watching for file changes with StatReloader
+"GET /task/index/ HTTP/1.1" 200 1621
+"GET /task/block/ HTTP/1.1" 200 93
+"POST /task/index/add/ HTTP/1.1" 201 78
+Watching for file changes with StatReloader
+/home/danyil/projects/result_2/comments/comments/settings.py changed, reloading.
+INFO 2020-01-20 13:57:14,594 autoreload 31566 139677174966080 Watching for file changes with StatReloader
+INFO 2020-01-20 13:57:16,370 basehttp 31566 139677114304256 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:57:16,409 basehttp 31566 139677114304256 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 13:57:16,410 basehttp 31566 139677034084096 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 13:57:16,444 basehttp 31566 139677034084096 "GET /task/block/ HTTP/1.1" 200 172
+INFO 2020-01-20 13:57:18,029 basehttp 31566 139677034084096 "DELETE /task/index/delete/181 HTTP/1.1" 301 0
+INFO 2020-01-20 13:57:18,041 basehttp 31566 139677034084096 "DELETE /task/index/delete/181/ HTTP/1.1" 204 0
+INFO 2020-01-20 13:57:38,970 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:57:39,024 basehttp 31566 139677034084096 "GET /task/block/ HTTP/1.1" 200 93
+INFO 2020-01-20 13:57:57,158 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:57:57,216 basehttp 31566 139677034084096 "GET /task/block/ HTTP/1.1" 200 93
+INFO 2020-01-20 13:57:58,020 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:57:58,516 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:57:59,204 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:58:00,021 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:58:00,552 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:58:02,015 basehttp 31566 139677034084096 "DELETE /task/index/delete/180 HTTP/1.1" 301 0
+INFO 2020-01-20 13:58:02,036 basehttp 31566 139677034084096 "DELETE /task/index/delete/180/ HTTP/1.1" 204 0
+INFO 2020-01-20 13:58:20,333 basehttp 31566 139677034084096 "POST /task/index/add/ HTTP/1.1" 201 91
+INFO 2020-01-20 13:58:24,269 basehttp 31566 139677034084096 "DELETE /task/index/delete/182 HTTP/1.1" 301 0
+INFO 2020-01-20 13:58:24,297 basehttp 31566 139677034084096 "DELETE /task/index/delete/182/ HTTP/1.1" 204 0
+INFO 2020-01-20 13:58:24,841 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:58:24,867 basehttp 31566 139677034084096 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 13:58:24,867 basehttp 31566 139677114304256 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 13:58:24,932 basehttp 31566 139677034084096 "GET /task/block/ HTTP/1.1" 200 2
+INFO 2020-01-20 13:58:25,839 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:58:26,002 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:58:26,168 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:58:35,630 basehttp 31566 139677025691392 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:58:35,805 basehttp 31566 139677025691392 "GET /static/css/styles.css HTTP/1.1" 200 3989
+INFO 2020-01-20 13:58:35,807 basehttp 31566 139677025691392 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 200 7833
+INFO 2020-01-20 13:58:35,871 basehttp 31566 139677017298688 "GET /task/block/ HTTP/1.1" 200 2
+INFO 2020-01-20 13:58:40,930 basehttp 31566 139677017298688 "POST /task/index/add/ HTTP/1.1" 201 78
+INFO 2020-01-20 13:58:41,939 basehttp 31566 139677017298688 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:58:41,990 basehttp 31566 139677025691392 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 200 7833
+INFO 2020-01-20 13:58:41,991 basehttp 31566 139677017298688 "GET /static/css/styles.css HTTP/1.1" 200 3989
+INFO 2020-01-20 13:58:42,134 basehttp 31566 139677025691392 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-01-20 13:58:42,153 basehttp 31566 139677025691392 "GET /task/block/ HTTP/1.1" 200 80
+INFO 2020-01-20 13:58:45,850 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:58:45,911 basehttp 31566 139677034084096 "GET /task/block/ HTTP/1.1" 200 80
+INFO 2020-01-20 13:58:46,944 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:58:48,287 basehttp 31566 139677025691392 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:58:48,343 basehttp 31566 139677017298688 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 13:58:48,343 basehttp 31566 139677025691392 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 13:58:48,389 basehttp 31566 139677025691392 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-01-20 13:58:48,414 basehttp 31566 139677025691392 "GET /task/block/ HTTP/1.1" 200 80
+INFO 2020-01-20 13:58:49,651 basehttp 31566 139677025691392 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:58:49,687 basehttp 31566 139677017298688 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 13:58:49,688 basehttp 31566 139677025691392 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 13:58:49,728 basehttp 31566 139677025691392 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-01-20 13:58:49,738 basehttp 31566 139677025691392 "GET /task/block/ HTTP/1.1" 200 80
+INFO 2020-01-20 13:58:53,944 basehttp 31566 139677025691392 "POST /task/index/add/ HTTP/1.1" 201 81
+INFO 2020-01-20 13:58:55,203 basehttp 31566 139677025691392 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:58:55,251 basehttp 31566 139677025691392 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 13:58:55,251 basehttp 31566 139677017298688 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 13:58:55,293 basehttp 31566 139677025691392 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-01-20 13:58:55,316 basehttp 31566 139677025691392 "GET /task/block/ HTTP/1.1" 200 162
+INFO 2020-01-20 13:58:58,270 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:58:58,312 basehttp 31566 139677034084096 "GET /task/block/ HTTP/1.1" 200 162
+INFO 2020-01-20 13:59:30,511 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:59:30,555 basehttp 31566 139677034084096 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 13:59:30,563 basehttp 31566 139677034084096 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 200 7834
+INFO 2020-01-20 13:59:30,629 basehttp 31566 139677034084096 "GET /task/block/ HTTP/1.1" 200 162
+INFO 2020-01-20 13:59:31,295 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 13:59:31,371 basehttp 31566 139677034084096 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 14:00:37,287 basehttp 31566 139677034084096 "DELETE /task/index/delete/183 HTTP/1.1" 301 0
+INFO 2020-01-20 14:00:37,308 basehttp 31566 139677034084096 "DELETE /task/index/delete/183/ HTTP/1.1" 204 0
+INFO 2020-01-20 14:00:50,901 basehttp 31566 139677025691392 "DELETE /task/index/delete/184 HTTP/1.1" 301 0
+INFO 2020-01-20 14:00:51,166 basehttp 31566 139677025691392 "DELETE /task/index/delete/184/ HTTP/1.1" 204 0
+INFO 2020-01-20 14:00:53,817 basehttp 31566 139677025691392 "DELETE /task/index/delete/183 HTTP/1.1" 301 0
+WARNING 2020-01-20 14:00:53,824 log 31566 139677025691392 Not Found: /task/index/delete/183/
+WARNING 2020-01-20 14:00:53,825 basehttp 31566 139677025691392 "DELETE /task/index/delete/183/ HTTP/1.1" 404 23
+INFO 2020-01-20 14:00:53,846 basehttp 31566 139677025691392 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:00:53,890 basehttp 31566 139677025691392 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 14:00:53,891 basehttp 31566 139677017298688 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 200 7834
+INFO 2020-01-20 14:00:53,934 basehttp 31566 139677017298688 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-01-20 14:00:53,940 basehttp 31566 139677017298688 "GET /task/block/ HTTP/1.1" 200 2
+INFO 2020-01-20 14:01:09,346 basehttp 31566 139677034084096 "DELETE /task/index/delete/184 HTTP/1.1" 301 0
+WARNING 2020-01-20 14:01:09,356 log 31566 139677034084096 Not Found: /task/index/delete/184/
+WARNING 2020-01-20 14:01:09,357 basehttp 31566 139677034084096 "DELETE /task/index/delete/184/ HTTP/1.1" 404 23
+INFO 2020-01-20 14:01:09,388 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:01:09,448 basehttp 31566 139677034084096 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 14:01:09,456 basehttp 31566 139677034084096 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 14:01:09,475 basehttp 31566 139677034084096 "GET /task/block/ HTTP/1.1" 200 2
+INFO 2020-01-20 14:01:48,177 basehttp 31566 139677034084096 "POST /task/index/add/ HTTP/1.1" 201 89
+INFO 2020-01-20 14:01:49,926 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:01:49,991 basehttp 31566 139677034084096 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 14:01:50,040 basehttp 31566 139677034084096 "GET /task/block/ HTTP/1.1" 200 91
+INFO 2020-01-20 14:01:57,915 basehttp 31566 139677034084096 "POST /task/index/add/ HTTP/1.1" 201 82
+WARNING 2020-01-20 14:02:02,340 log 31566 139677034084096 Bad Request: /task/index/add/
+WARNING 2020-01-20 14:02:02,341 basehttp 31566 139677034084096 "POST /task/index/add/ HTTP/1.1" 400 49
+INFO 2020-01-20 14:02:02,362 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:02:02,417 basehttp 31566 139677034084096 "GET /task/block/ HTTP/1.1" 200 174
+INFO 2020-01-20 14:02:11,141 basehttp 31566 139677034084096 "POST /task/index/add/ HTTP/1.1" 201 75
+INFO 2020-01-20 14:02:12,931 basehttp 31566 139677034084096 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:02:12,969 basehttp 31566 139677034084096 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 14:02:12,981 basehttp 31566 139677034084096 "GET /task/block/ HTTP/1.1" 200 250
+INFO 2020-01-20 14:02:22,045 basehttp 31566 139677034084096 "PUT /task/index/edit/187/ HTTP/1.1" 200 0
+INFO 2020-01-20 14:04:21,828 autoreload 31566 139677174966080 /home/danyil/projects/result_2/comments/comments_block/serializers.py changed, reloading.
+INFO 2020-01-20 14:04:22,066 autoreload 31957 139799929886528 Watching for file changes with StatReloader
+INFO 2020-01-20 14:04:25,241 autoreload 31957 139799929886528 /home/danyil/projects/result_2/comments/comments_block/serializers.py changed, reloading.
+INFO 2020-01-20 14:04:25,480 autoreload 31960 140233655637824 Watching for file changes with StatReloader
+INFO 2020-01-20 14:04:52,000 autoreload 31960 140233655637824 /home/danyil/projects/result_2/comments/comments_block/serializers.py changed, reloading.
+INFO 2020-01-20 14:04:52,223 autoreload 31978 140619746838336 Watching for file changes with StatReloader
+INFO 2020-01-20 14:05:08,297 autoreload 31978 140619746838336 /home/danyil/projects/result_2/comments/comments_block/serializers.py changed, reloading.
+INFO 2020-01-20 14:05:08,619 autoreload 31990 139732815341376 Watching for file changes with StatReloader
+INFO 2020-01-20 14:05:09,828 autoreload 31990 139732815341376 /home/danyil/projects/result_2/comments/comments_block/serializers.py changed, reloading.
+INFO 2020-01-20 14:05:10,153 autoreload 31992 140443305015104 Watching for file changes with StatReloader
+INFO 2020-01-20 14:05:14,684 basehttp 31992 140443244353280 "POST /task/index/add/ HTTP/1.1" 201 83
+INFO 2020-01-20 14:05:39,014 basehttp 31992 140443244353280 "DELETE /task/index/delete/185 HTTP/1.1" 301 0
+INFO 2020-01-20 14:05:39,037 basehttp 31992 140443244353280 "DELETE /task/index/delete/185/ HTTP/1.1" 204 0
+INFO 2020-01-20 14:05:45,624 basehttp 31992 140443244353280 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:05:45,650 basehttp 31992 140443244353280 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 14:05:45,654 basehttp 31992 140443235698432 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 14:05:45,684 basehttp 31992 140443235698432 "GET /task/block/ HTTP/1.1" 200 249
+INFO 2020-01-20 14:09:06,193 autoreload 31992 140443305015104 /home/danyil/projects/result_2/comments/comments_block/serializers.py changed, reloading.
+INFO 2020-01-20 14:09:06,466 autoreload 32142 140191039293248 Watching for file changes with StatReloader
+INFO 2020-01-20 14:09:09,903 basehttp 32142 140190978631424 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:09:09,928 basehttp 32142 140190978631424 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 14:09:09,932 basehttp 32142 140190970238720 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 14:09:09,960 basehttp 32142 140190970238720 "GET /task/block/ HTTP/1.1" 200 249
+INFO 2020-01-20 14:09:14,996 basehttp 32142 140190970238720 "POST /task/index/add/ HTTP/1.1" 201 76
+INFO 2020-01-20 14:09:51,191 autoreload 32142 140191039293248 /home/danyil/projects/result_2/comments/comments_block/serializers.py changed, reloading.
+INFO 2020-01-20 14:09:51,454 autoreload 32161 140026555021120 Watching for file changes with StatReloader
+INFO 2020-01-20 14:11:21,747 autoreload 32161 140026555021120 /home/danyil/projects/result_2/comments/comments/settings.py changed, reloading.
+INFO 2020-01-20 14:11:22,004 autoreload 32215 139826787886912 Watching for file changes with StatReloader
+INFO 2020-01-20 14:11:25,864 basehttp 32215 139826727188224 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:11:25,897 basehttp 32215 139826727188224 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 14:11:25,898 basehttp 32215 139826718795520 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 14:11:25,923 basehttp 32215 139826718795520 "GET /task/block/ HTTP/1.1" 200 326
+INFO 2020-01-20 14:11:29,603 basehttp 32215 139826718795520 "POST /task/index/add/ HTTP/1.1" 201 87
+INFO 2020-01-20 14:11:45,665 basehttp 32215 139826718795520 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:11:45,729 basehttp 32215 139826718795520 "GET /task/block/ HTTP/1.1" 200 414
+INFO 2020-01-20 14:13:29,365 autoreload 32215 139826787886912 /home/danyil/projects/result_2/comments/comments_block/serializers.py changed, reloading.
+INFO 2020-01-20 14:13:29,885 autoreload 32258 139936552544064 Watching for file changes with StatReloader
+INFO 2020-01-20 14:13:31,119 basehttp 32258 139936492631808 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:13:31,155 basehttp 32258 139936492631808 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 14:13:31,182 basehttp 32258 139936492631808 "GET /task/block/ HTTP/1.1" 200 414
+INFO 2020-01-20 14:13:35,995 serializers 32258 139936492631808 New data added
+INFO 2020-01-20 14:13:36,007 basehttp 32258 139936492631808 "POST /task/index/add/ HTTP/1.1" 201 82
+INFO 2020-01-20 14:14:22,030 autoreload 32258 139936552544064 /home/danyil/projects/result_2/comments/comments_block/serializers.py changed, reloading.
+INFO 2020-01-20 14:14:22,270 autoreload 32305 139780789520192 Watching for file changes with StatReloader
+ERROR 2020-01-20 14:14:25,796 log 32305 139780728821504 Internal Server Error: /task/index/add/
+Traceback (most recent call last):
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 116, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 114, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/comments/comments_block/views.py", line 32, in post
+    serializer.save()
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "/home/danyil/projects/result_2/comments/comments_block/serializers.py", line 16, in create
+    logger.info('New data added: '+validated_data)
+TypeError: can only concatenate str (not "dict") to str
+ERROR 2020-01-20 14:14:25,797 basehttp 32305 139780728821504 "POST /task/index/add/ HTTP/1.1" 500 19243
+INFO 2020-01-20 14:14:25,832 basehttp 32305 139780728821504 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:14:25,863 basehttp 32305 139780728821504 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 14:14:25,885 basehttp 32305 139780728821504 "GET /task/block/ HTTP/1.1" 200 497
+INFO 2020-01-20 14:15:13,005 autoreload 32305 139780789520192 /home/danyil/projects/result_2/comments/comments_block/serializers.py changed, reloading.
+INFO 2020-01-20 14:15:13,295 autoreload 32375 139750279243584 Watching for file changes with StatReloader
+INFO 2020-01-20 14:16:00,850 autoreload 32375 139750279243584 /home/danyil/projects/result_2/comments/comments_block/serializers.py changed, reloading.
+INFO 2020-01-20 14:16:01,102 autoreload 32393 140420618663744 Watching for file changes with StatReloader
+INFO 2020-01-20 14:17:19,463 autoreload 32646 139939216230208 Watching for file changes with StatReloader
+INFO 2020-01-20 14:17:21,350 basehttp 32646 139939088348928 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:17:21,403 basehttp 32646 139939088348928 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 14:17:21,406 basehttp 32646 139939088348928 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 14:17:21,437 basehttp 32646 139939088348928 "GET /task/block/ HTTP/1.1" 200 497
+ERROR 2020-01-20 14:17:25,081 log 32646 139939088348928 Internal Server Error: /task/index/add/
+Traceback (most recent call last):
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 116, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 114, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/comments/comments_block/views.py", line 32, in post
+    serializer.save()
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "/home/danyil/projects/result_2/comments/comments_block/serializers.py", line 16, in create
+    logger.info(f'New data added: user_name={validated_data.user_name}; comment_text={validated_data.comment_text}')
+AttributeError: 'dict' object has no attribute 'user_name'
+ERROR 2020-01-20 14:17:25,085 basehttp 32646 139939088348928 "POST /task/index/add/ HTTP/1.1" 500 19320
+INFO 2020-01-20 14:17:25,111 basehttp 32646 139939088348928 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:18:32,634 autoreload 32646 139939216230208 /home/danyil/projects/result_2/comments/comments_block/serializers.py changed, reloading.
+INFO 2020-01-20 14:18:32,878 autoreload 32697 140073676916544 Watching for file changes with StatReloader
+INFO 2020-01-20 14:18:34,447 basehttp 32697 140073616217856 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:18:34,547 basehttp 32697 140073616217856 "GET /task/block/ HTTP/1.1" 200 497
+ERROR 2020-01-20 14:18:37,355 log 32697 140073616217856 Internal Server Error: /task/index/add/
+Traceback (most recent call last):
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 116, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 114, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/comments/comments_block/views.py", line 32, in post
+    serializer.save()
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "/home/danyil/projects/result_2/comments/comments_block/serializers.py", line 17, in create
+    logger.info(f'New data added: user_name={validated_data.user_name}; comment_text={validated_data.comment_text}')
+AttributeError: 'dict' object has no attribute 'user_name'
+ERROR 2020-01-20 14:18:37,358 basehttp 32697 140073616217856 "POST /task/index/add/ HTTP/1.1" 500 19323
+INFO 2020-01-20 14:18:37,372 basehttp 32697 140073616217856 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:19:31,173 autoreload 32697 140073676916544 /home/danyil/projects/result_2/comments/comments_block/serializers.py changed, reloading.
+INFO 2020-01-20 14:19:31,452 autoreload 32724 140092642412352 Watching for file changes with StatReloader
+INFO 2020-01-20 14:19:37,287 basehttp 32724 140092581713664 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:19:37,322 basehttp 32724 140092581713664 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 14:19:37,346 basehttp 32724 140092581713664 "GET /task/block/ HTTP/1.1" 200 497
+INFO 2020-01-20 14:19:46,572 serializers 32724 140092581713664 New data added: user_name=asdfasdf; comment_text=asdfsdfasdf
+INFO 2020-01-20 14:19:46,592 basehttp 32724 140092581713664 "POST /task/index/add/ HTTP/1.1" 201 82
+INFO 2020-01-20 14:21:05,457 autoreload 32724 140092642412352 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 14:21:05,733 autoreload 305 140653511251776 Watching for file changes with StatReloader
+INFO 2020-01-20 14:21:07,965 autoreload 305 140653511251776 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 14:21:08,198 autoreload 313 140420420089664 Watching for file changes with StatReloader
+INFO 2020-01-20 14:21:11,452 autoreload 313 140420420089664 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 14:21:11,692 autoreload 316 140269861029696 Watching for file changes with StatReloader
+INFO 2020-01-20 14:22:51,130 autoreload 316 140269861029696 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 14:22:51,731 autoreload 383 140476409739072 Watching for file changes with StatReloader
+INFO 2020-01-20 14:24:03,987 autoreload 383 140476409739072 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 14:24:04,343 autoreload 508 140095361853248 Watching for file changes with StatReloader
+INFO 2020-01-20 14:24:23,284 autoreload 508 140095361853248 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 14:24:23,532 autoreload 518 139648533489472 Watching for file changes with StatReloader
+INFO 2020-01-20 14:24:36,736 views 518 139648472790784 192 comment has been changed from asdfsdfasdf to Toss a coin to your witcher
+INFO 2020-01-20 14:24:36,752 basehttp 518 139648472790784 "PUT /task/index/edit/192/ HTTP/1.1" 200 0
+INFO 2020-01-20 14:24:53,331 autoreload 518 139648533489472 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 14:24:53,651 autoreload 536 139961768412992 Watching for file changes with StatReloader
+INFO 2020-01-20 14:25:05,654 autoreload 553 139958207305536 Watching for file changes with StatReloader
+INFO 2020-01-20 14:30:18,981 basehttp 553 139958146606848 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:30:19,030 basehttp 553 139958146606848 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 14:30:19,031 basehttp 553 139958138214144 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 14:30:19,157 basehttp 553 139958146606848 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-01-20 14:30:19,179 basehttp 553 139958146606848 "GET /task/block/ HTTP/1.1" 200 596
+INFO 2020-01-20 14:42:34,449 autoreload 553 139958207305536 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 14:42:34,803 autoreload 3478 140498671294272 Watching for file changes with StatReloader
+INFO 2020-01-20 14:42:39,125 autoreload 3478 140498671294272 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 14:42:39,466 autoreload 3481 139852884584256 Watching for file changes with StatReloader
+INFO 2020-01-20 14:42:47,007 autoreload 3481 139852884584256 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 14:42:47,468 autoreload 3487 140163157366592 Watching for file changes with StatReloader
+INFO 2020-01-20 14:42:48,662 basehttp 3487 140163097454336 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:42:48,725 basehttp 3487 140163097454336 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 14:42:48,726 basehttp 3487 140163089061632 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 14:42:48,786 basehttp 3487 140163097454336 "GET /task/block/ HTTP/1.1" 200 596
+INFO 2020-01-20 14:42:50,375 basehttp 3487 140163097454336 "DELETE /task/index/delete/192 HTTP/1.1" 301 0
+INFO 2020-01-20 14:42:50,398 basehttp 3487 140163097454336 "DELETE /task/index/delete/192/ HTTP/1.1" 204 0
+INFO 2020-01-20 14:42:54,042 serializers 3487 140163097454336 New data added: user_name=asdasd; comment_text=zxczxczxc
+INFO 2020-01-20 14:42:54,056 basehttp 3487 140163097454336 "POST /task/index/add/ HTTP/1.1" 201 78
+INFO 2020-01-20 14:42:57,783 basehttp 3487 140163097454336 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:42:57,831 basehttp 3487 140163097454336 "GET /task/block/ HTTP/1.1" 200 576
+INFO 2020-01-20 14:42:59,301 basehttp 3487 140163097454336 "DELETE /task/index/delete/193 HTTP/1.1" 301 0
+INFO 2020-01-20 14:42:59,327 basehttp 3487 140163097454336 "DELETE /task/index/delete/193/ HTTP/1.1" 204 0
+INFO 2020-01-20 14:42:59,900 basehttp 3487 140163097454336 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:43:01,036 basehttp 3487 140163097454336 "DELETE /task/index/delete/193 HTTP/1.1" 301 0
+WARNING 2020-01-20 14:43:01,046 log 3487 140163097454336 Not Found: /task/index/delete/193/
+WARNING 2020-01-20 14:43:01,047 basehttp 3487 140163097454336 "DELETE /task/index/delete/193/ HTTP/1.1" 404 23
+INFO 2020-01-20 14:43:01,081 basehttp 3487 140163097454336 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:43:01,707 basehttp 3487 140163097454336 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:43:04,064 basehttp 3487 140163097454336 "DELETE /task/index/delete/193 HTTP/1.1" 301 0
+WARNING 2020-01-20 14:43:04,068 log 3487 140163097454336 Not Found: /task/index/delete/193/
+WARNING 2020-01-20 14:43:04,069 basehttp 3487 140163097454336 "DELETE /task/index/delete/193/ HTTP/1.1" 404 23
+INFO 2020-01-20 14:43:04,080 basehttp 3487 140163097454336 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:43:04,116 basehttp 3487 140163097454336 "GET /task/block/ HTTP/1.1" 200 497
+INFO 2020-01-20 14:49:19,915 autoreload 3487 140163157366592 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 14:49:20,166 autoreload 3769 140420153612096 Watching for file changes with StatReloader
+INFO 2020-01-20 14:49:23,335 basehttp 3769 140420092913408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:49:23,364 basehttp 3769 140420092913408 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 14:49:23,364 basehttp 3769 140420084520704 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 14:49:23,400 basehttp 3769 140420092913408 "GET /task/block/ HTTP/1.1" 200 497
+INFO 2020-01-20 14:49:24,549 basehttp 3769 140420092913408 "DELETE /task/index/delete/191 HTTP/1.1" 301 0
+INFO 2020-01-20 14:49:24,569 basehttp 3769 140420092913408 "DELETE /task/index/delete/191/ HTTP/1.1" 204 0
+INFO 2020-01-20 14:49:26,446 basehttp 3769 140420092913408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:49:28,591 basehttp 3769 140420092913408 "DELETE /task/index/delete/191 HTTP/1.1" 301 0
+WARNING 2020-01-20 14:49:28,600 log 3769 140420092913408 Not Found: /task/index/delete/191/
+WARNING 2020-01-20 14:49:28,601 basehttp 3769 140420092913408 "DELETE /task/index/delete/191/ HTTP/1.1" 404 23
+INFO 2020-01-20 14:49:28,627 basehttp 3769 140420092913408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:49:28,681 basehttp 3769 140420092913408 "GET /task/block/ HTTP/1.1" 200 414
+INFO 2020-01-20 14:49:29,494 basehttp 3769 140420092913408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:49:30,367 basehttp 3769 140420092913408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:49:36,720 serializers 3769 140420092913408 New data added: user_name=aaaaaaaaaa; comment_text=bbbbbbbbbbbbbb
+INFO 2020-01-20 14:49:36,734 basehttp 3769 140420092913408 "POST /task/index/add/ HTTP/1.1" 201 87
+INFO 2020-01-20 14:49:38,073 basehttp 3769 140420092913408 "DELETE /task/index/delete/194 HTTP/1.1" 301 0
+INFO 2020-01-20 14:49:38,097 basehttp 3769 140420092913408 "DELETE /task/index/delete/194/ HTTP/1.1" 204 0
+INFO 2020-01-20 14:49:38,901 basehttp 3769 140420092913408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:49:38,978 basehttp 3769 140420092913408 "GET /task/block/ HTTP/1.1" 200 414
+INFO 2020-01-20 14:49:39,562 basehttp 3769 140420092913408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:49:58,971 autoreload 3769 140420153612096 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 14:49:59,225 autoreload 3786 139825094162240 Watching for file changes with StatReloader
+INFO 2020-01-20 14:50:13,994 autoreload 3786 139825094162240 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 14:50:14,282 autoreload 3791 140145041344320 Watching for file changes with StatReloader
+INFO 2020-01-20 14:50:20,752 autoreload 3791 140145041344320 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 14:50:21,009 autoreload 3796 139833296099136 Watching for file changes with StatReloader
+INFO 2020-01-20 14:50:24,484 basehttp 3796 139833235400448 "DELETE /task/index/delete/190 HTTP/1.1" 301 0
+INFO 2020-01-20 14:50:24,515 basehttp 3796 139833235400448 "DELETE /task/index/delete/190/ HTTP/1.1" 204 0
+INFO 2020-01-20 14:50:26,316 basehttp 3796 139833235400448 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:50:26,415 basehttp 3796 139833235400448 "GET /task/block/ HTTP/1.1" 200 326
+INFO 2020-01-20 14:50:27,780 basehttp 3796 139833235400448 "DELETE /task/index/delete/189 HTTP/1.1" 301 0
+INFO 2020-01-20 14:50:27,796 basehttp 3796 139833235400448 "DELETE /task/index/delete/189/ HTTP/1.1" 204 0
+INFO 2020-01-20 14:50:29,296 basehttp 3796 139833235400448 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:50:30,473 basehttp 3796 139833235400448 "DELETE /task/index/delete/189 HTTP/1.1" 301 0
+WARNING 2020-01-20 14:50:30,489 log 3796 139833235400448 Not Found: /task/index/delete/189/
+WARNING 2020-01-20 14:50:30,490 basehttp 3796 139833235400448 "DELETE /task/index/delete/189/ HTTP/1.1" 404 23
+INFO 2020-01-20 14:50:30,529 basehttp 3796 139833235400448 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:50:31,495 basehttp 3796 139833235400448 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:50:31,580 basehttp 3796 139833235400448 "GET /task/block/ HTTP/1.1" 200 249
+INFO 2020-01-20 14:50:32,625 basehttp 3796 139833235400448 "DELETE /task/index/delete/188 HTTP/1.1" 301 0
+INFO 2020-01-20 14:50:32,645 basehttp 3796 139833235400448 "DELETE /task/index/delete/188/ HTTP/1.1" 204 0
+INFO 2020-01-20 14:50:33,307 basehttp 3796 139833235400448 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:50:33,928 basehttp 3796 139833235400448 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:50:34,927 basehttp 3796 139833235400448 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:50:35,495 basehttp 3796 139833235400448 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:50:36,579 basehttp 3796 139833235400448 "DELETE /task/index/delete/188 HTTP/1.1" 301 0
+WARNING 2020-01-20 14:50:36,589 log 3796 139833235400448 Not Found: /task/index/delete/188/
+WARNING 2020-01-20 14:50:36,590 basehttp 3796 139833235400448 "DELETE /task/index/delete/188/ HTTP/1.1" 404 23
+INFO 2020-01-20 14:50:36,640 basehttp 3796 139833235400448 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:50:36,748 basehttp 3796 139833235400448 "GET /task/block/ HTTP/1.1" 200 165
+INFO 2020-01-20 14:50:37,584 basehttp 3796 139833235400448 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:50:38,217 basehttp 3796 139833235400448 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:50:38,425 basehttp 3796 139833235400448 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:50:39,130 basehttp 3796 139833235400448 "DELETE /task/index/delete/187 HTTP/1.1" 301 0
+INFO 2020-01-20 14:50:39,150 basehttp 3796 139833235400448 "DELETE /task/index/delete/187/ HTTP/1.1" 204 0
+INFO 2020-01-20 14:50:39,839 basehttp 3796 139833235400448 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:50:41,889 basehttp 3796 139833235400448 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:50:41,924 basehttp 3796 139833235400448 "GET /task/block/ HTTP/1.1" 200 84
+INFO 2020-01-20 14:50:42,393 basehttp 3796 139833235400448 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:50:51,376 autoreload 3796 139833296099136 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 14:50:51,626 autoreload 3812 140593594222400 Watching for file changes with StatReloader
+INFO 2020-01-20 14:51:00,104 autoreload 3812 140593594222400 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 14:51:00,349 autoreload 3819 139764496877376 Watching for file changes with StatReloader
+INFO 2020-01-20 14:55:01,989 autoreload 3819 139764496877376 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 14:55:02,223 autoreload 3967 139871117080384 Watching for file changes with StatReloader
+INFO 2020-01-20 14:55:05,596 basehttp 3967 139871056381696 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:55:05,639 basehttp 3967 139871056381696 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 14:55:05,688 basehttp 3967 139871056381696 "GET /task/block/ HTTP/1.1" 200 84
+INFO 2020-01-20 14:55:06,819 basehttp 3967 139871056381696 "DELETE /task/index/delete/186 HTTP/1.1" 301 0
+INFO 2020-01-20 14:55:06,831 basehttp 3967 139871056381696 "DELETE /task/index/delete/186/ HTTP/1.1" 204 0
+INFO 2020-01-20 14:55:07,665 basehttp 3967 139871056381696 "GET /task/index/ HTTP/1.1" 200 1621
+WARNING 2020-01-20 14:55:10,450 log 3967 139871056381696 Not Found: /task/index/edit/186/
+WARNING 2020-01-20 14:55:10,452 basehttp 3967 139871056381696 "PUT /task/index/edit/186/ HTTP/1.1" 404 23
+INFO 2020-01-20 14:55:10,479 basehttp 3967 139871056381696 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:55:10,515 basehttp 3967 139871056381696 "GET /task/block/ HTTP/1.1" 200 2
+INFO 2020-01-20 14:55:16,853 serializers 3967 139871056381696 New data added: user_name=efgef; comment_text=qegffgqw
+INFO 2020-01-20 14:55:16,865 basehttp 3967 139871056381696 "POST /task/index/add/ HTTP/1.1" 201 76
+INFO 2020-01-20 14:55:18,095 basehttp 3967 139871056381696 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 14:55:18,133 basehttp 3967 139871056381696 "GET /task/block/ HTTP/1.1" 200 78
+INFO 2020-01-20 15:00:31,550 basehttp 3967 139871056381696 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:00:31,620 basehttp 3967 139871056381696 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 15:00:31,670 basehttp 3967 139871056381696 "GET /task/block/ HTTP/1.1" 200 78
+INFO 2020-01-20 15:00:35,849 basehttp 3967 139871056381696 "DELETE /task/index/delete/195 HTTP/1.1" 301 0
+INFO 2020-01-20 15:00:35,869 basehttp 3967 139871056381696 "DELETE /task/index/delete/195/ HTTP/1.1" 204 0
+INFO 2020-01-20 15:00:39,535 serializers 3967 139871056381696 New data added: user_name=6o989; comment_text=67897896789
+INFO 2020-01-20 15:00:39,547 basehttp 3967 139871056381696 "POST /task/index/add/ HTTP/1.1" 201 79
+INFO 2020-01-20 15:00:42,276 serializers 3967 139871056381696 New data added: user_name=967896; comment_text=967896789
+INFO 2020-01-20 15:00:42,292 basehttp 3967 139871056381696 "POST /task/index/add/ HTTP/1.1" 201 78
+INFO 2020-01-20 15:09:52,758 autoreload 3967 139871117080384 /home/danyil/projects/result_2/comments/comments/settings.py changed, reloading.
+INFO 2020-01-20 15:09:53,015 autoreload 4380 140087974901568 Watching for file changes with StatReloader
+INFO 2020-01-20 15:15:38,081 autoreload 4510 140411862681408 Watching for file changes with StatReloader
+INFO 2020-01-20 15:16:36,572 autoreload 4535 139929724352320 Watching for file changes with StatReloader
+INFO 2020-01-20 15:16:41,259 serializers 4535 139929663653632 New data added: user_name=rewygfg; comment_text=wrhwrh
+INFO 2020-01-20 15:16:41,277 basehttp 4535 139929663653632 "POST /task/index/add/ HTTP/1.1" 201 76
+INFO 2020-01-20 15:16:42,496 basehttp 4535 139929663653632 "DELETE /task/index/delete/198 HTTP/1.1" 301 0
+INFO 2020-01-20 15:16:42,522 basehttp 4535 139929663653632 "DELETE /task/index/delete/198/ HTTP/1.1" 204 0
+INFO 2020-01-20 15:16:43,588 basehttp 4535 139929663653632 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:16:43,653 basehttp 4535 139929663653632 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 15:16:43,653 basehttp 4535 139929654998784 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 15:16:43,688 basehttp 4535 139929654998784 "GET /task/block/ HTTP/1.1" 200 160
+INFO 2020-01-20 15:16:44,235 basehttp 4535 139929654998784 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:16:44,970 basehttp 4535 139929654998784 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:16:47,034 basehttp 4535 139929654998784 "DELETE /task/index/delete/197 HTTP/1.1" 301 0
+INFO 2020-01-20 15:16:47,059 basehttp 4535 139929654998784 "DELETE /task/index/delete/197/ HTTP/1.1" 204 0
+INFO 2020-01-20 15:16:47,604 basehttp 4535 139929654998784 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:16:49,872 basehttp 4535 139929654998784 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:16:49,954 basehttp 4535 139929654998784 "GET /task/block/ HTTP/1.1" 200 81
+INFO 2020-01-20 15:21:14,223 autoreload 4535 139929724352320 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 15:21:14,468 autoreload 4640 140220378011456 Watching for file changes with StatReloader
+INFO 2020-01-20 15:21:18,798 autoreload 4640 140220378011456 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 15:21:19,023 autoreload 4644 140621842196288 Watching for file changes with StatReloader
+INFO 2020-01-20 15:21:25,358 autoreload 4644 140621842196288 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 15:21:25,703 autoreload 4647 140603235301184 Watching for file changes with StatReloader
+INFO 2020-01-20 15:21:28,083 basehttp 4647 140603174602496 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:21:28,132 basehttp 4647 140603174602496 "GET /task/block/ HTTP/1.1" 200 81
+INFO 2020-01-20 15:21:29,153 basehttp 4647 140603174602496 "DELETE /task/index/delete/196 HTTP/1.1" 301 0
+INFO 2020-01-20 15:21:29,165 basehttp 4647 140603174602496 "DELETE /task/index/delete/196/ HTTP/1.1" 204 0
+INFO 2020-01-20 15:21:29,820 basehttp 4647 140603174602496 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:21:31,486 basehttp 4647 140603174602496 "DELETE /task/index/delete/196 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:21:31,498 log 4647 140603174602496 Not Found: /task/index/delete/196/
+WARNING 2020-01-20 15:21:31,499 basehttp 4647 140603174602496 "DELETE /task/index/delete/196/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:21:31,522 basehttp 4647 140603174602496 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:21:32,592 basehttp 4647 140603174602496 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:21:33,585 basehttp 4647 140603174602496 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:21:33,622 basehttp 4647 140603174602496 "GET /task/block/ HTTP/1.1" 200 2
+INFO 2020-01-20 15:26:41,663 basehttp 4647 140603166209792 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:26:41,716 basehttp 4647 140603166209792 "GET /static/css/styles.css HTTP/1.1" 200 3989
+INFO 2020-01-20 15:26:41,718 basehttp 4647 140603157186304 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 200 7834
+INFO 2020-01-20 15:26:41,832 basehttp 4647 140603157186304 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-01-20 15:26:41,836 basehttp 4647 140603157186304 "GET /task/block/ HTTP/1.1" 200 2
+INFO 2020-01-20 15:26:43,540 basehttp 4647 140603157186304 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:26:43,551 basehttp 4647 140603157186304 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 15:26:43,555 basehttp 4647 140603157186304 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 15:26:43,586 basehttp 4647 140603157186304 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-01-20 15:26:43,590 basehttp 4647 140603157186304 "GET /task/block/ HTTP/1.1" 200 2
+INFO 2020-01-20 15:26:44,167 basehttp 4647 140603157186304 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:26:44,207 basehttp 4647 140603157186304 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 15:26:44,208 basehttp 4647 140603166209792 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 15:26:44,273 basehttp 4647 140603157186304 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-01-20 15:26:44,278 basehttp 4647 140603157186304 "GET /task/block/ HTTP/1.1" 200 2
+INFO 2020-01-20 15:26:48,044 basehttp 4647 140603166209792 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:26:48,062 basehttp 4647 140603166209792 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 15:26:48,069 basehttp 4647 140603166209792 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 15:26:48,098 basehttp 4647 140603166209792 "GET /task/block/ HTTP/1.1" 200 2
+INFO 2020-01-20 15:26:51,566 serializers 4647 140603166209792 New data added: user_name=dasdaSDA; comment_text=ASDASaSDAsd
+INFO 2020-01-20 15:26:51,579 basehttp 4647 140603166209792 "POST /task/index/add/ HTTP/1.1" 201 82
+INFO 2020-01-20 15:27:30,016 serializers 4647 140603166209792 New data added: user_name=zxcz<xcz<x; comment_text=asdaSDASD
+INFO 2020-01-20 15:27:30,032 basehttp 4647 140603166209792 "POST /task/index/add/ HTTP/1.1" 201 82
+INFO 2020-01-20 15:27:43,984 basehttp 4647 140603166209792 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:27:44,094 basehttp 4647 140603166209792 "GET /task/block/ HTTP/1.1" 200 167
+INFO 2020-01-20 15:27:44,583 basehttp 4647 140603166209792 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:28:14,285 basehttp 4647 140603166209792 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:28:14,324 basehttp 4647 140603166209792 "GET /task/block/ HTTP/1.1" 200 167
+INFO 2020-01-20 15:28:14,795 basehttp 4647 140603166209792 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:28:15,008 basehttp 4647 140603166209792 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:28:15,662 basehttp 4647 140603166209792 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:28:22,872 basehttp 4647 140603174602496 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:28:22,933 basehttp 4647 140603174602496 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 15:28:22,934 basehttp 4647 140603174602496 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 15:28:23,028 basehttp 4647 140603174602496 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-01-20 15:28:23,058 basehttp 4647 140603174602496 "GET /task/block/ HTTP/1.1" 200 167
+INFO 2020-01-20 15:28:25,219 basehttp 4647 140603174602496 "DELETE /task/index/delete/200 HTTP/1.1" 301 0
+INFO 2020-01-20 15:28:25,291 basehttp 4647 140603174602496 "DELETE /task/index/delete/200/ HTTP/1.1" 204 0
+INFO 2020-01-20 15:28:26,888 basehttp 4647 140603166209792 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:28:26,993 basehttp 4647 140603166209792 "GET /task/block/ HTTP/1.1" 200 84
+INFO 2020-01-20 15:28:28,565 basehttp 4647 140603166209792 "DELETE /task/index/delete/199 HTTP/1.1" 301 0
+INFO 2020-01-20 15:28:28,588 basehttp 4647 140603166209792 "DELETE /task/index/delete/199/ HTTP/1.1" 204 0
+INFO 2020-01-20 15:28:29,468 basehttp 4647 140603166209792 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:29:36,897 autoreload 4647 140603235301184 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 15:29:37,147 autoreload 4982 140349281535808 Watching for file changes with StatReloader
+INFO 2020-01-20 15:29:39,549 basehttp 4982 140349220837120 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:29:39,599 basehttp 4982 140349220837120 "GET /task/block/ HTTP/1.1" 200 2
+INFO 2020-01-20 15:29:40,610 basehttp 4982 140349220837120 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:29:40,978 basehttp 4982 140349220837120 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:29:43,357 basehttp 4982 140348995139328 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:29:43,424 basehttp 4982 140348995139328 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 15:29:43,424 basehttp 4982 140348986746624 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 15:29:43,465 basehttp 4982 140348995139328 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-01-20 15:29:43,491 basehttp 4982 140348995139328 "GET /task/block/ HTTP/1.1" 200 2
+INFO 2020-01-20 15:29:47,599 serializers 4982 140349220837120 New data added: user_name=SADASD; comment_text=ZXCZXCZXC
+INFO 2020-01-20 15:29:47,613 basehttp 4982 140349220837120 "POST /task/index/add/ HTTP/1.1" 201 78
+INFO 2020-01-20 15:29:48,673 basehttp 4982 140349220837120 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:29:48,767 basehttp 4982 140349220837120 "GET /task/block/ HTTP/1.1" 200 80
+INFO 2020-01-20 15:29:49,284 basehttp 4982 140349220837120 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:29:50,568 basehttp 4982 140349220837120 "DELETE /task/index/delete/201 HTTP/1.1" 301 0
+INFO 2020-01-20 15:29:50,591 basehttp 4982 140349220837120 "DELETE /task/index/delete/201/ HTTP/1.1" 204 0
+INFO 2020-01-20 15:29:51,666 basehttp 4982 140349220837120 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:29:56,275 basehttp 4982 140349220837120 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:29:56,369 basehttp 4982 140349220837120 "GET /task/block/ HTTP/1.1" 200 2
+INFO 2020-01-20 15:30:00,364 serializers 4982 140349220837120 New data added: user_name=ASDASDASDA; comment_text=ZXCZXCZXCZXC
+INFO 2020-01-20 15:30:00,375 basehttp 4982 140349220837120 "POST /task/index/add/ HTTP/1.1" 201 85
+INFO 2020-01-20 15:31:39,086 autoreload 4982 140349281535808 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 15:31:39,365 autoreload 5027 140678274619200 Watching for file changes with StatReloader
+INFO 2020-01-20 15:31:43,623 autoreload 5027 140678274619200 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 15:31:43,849 autoreload 5029 139822417774400 Watching for file changes with StatReloader
+INFO 2020-01-20 15:31:53,385 autoreload 5029 139822417774400 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 15:31:53,613 autoreload 5037 139826897495872 Watching for file changes with StatReloader
+INFO 2020-01-20 15:32:07,377 autoreload 5037 139826897495872 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 15:32:07,609 autoreload 5044 140395277645632 Watching for file changes with StatReloader
+INFO 2020-01-20 15:32:10,209 basehttp 5044 140395216946944 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:32:10,297 basehttp 5044 140395216946944 "GET /task/block/ HTTP/1.1" 200 87
+INFO 2020-01-20 15:32:12,275 basehttp 5044 140395216946944 "DELETE /task/index/delete/202 HTTP/1.1" 301 0
+INFO 2020-01-20 15:32:12,297 basehttp 5044 140395216946944 "DELETE /task/index/delete/202/ HTTP/1.1" 204 0
+INFO 2020-01-20 15:32:13,153 basehttp 5044 140395216946944 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:32:13,814 basehttp 5044 140395216946944 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:32:14,722 basehttp 5044 140395216946944 "DELETE /task/index/delete/202 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:32:14,733 log 5044 140395216946944 Not Found: /task/index/delete/202/
+WARNING 2020-01-20 15:32:14,734 basehttp 5044 140395216946944 "DELETE /task/index/delete/202/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:32:14,760 basehttp 5044 140395216946944 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:32:15,500 basehttp 5044 140395216946944 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:32:15,541 basehttp 5044 140395216946944 "GET /task/block/ HTTP/1.1" 200 2
+INFO 2020-01-20 15:32:49,899 autoreload 5044 140395277645632 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 15:32:50,349 autoreload 5057 140010476250944 Watching for file changes with StatReloader
+INFO 2020-01-20 15:32:50,970 basehttp 5057 140010416338688 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:32:51,025 basehttp 5057 140010416338688 "GET /task/block/ HTTP/1.1" 200 2
+INFO 2020-01-20 15:32:55,048 serializers 5057 140010416338688 New data added: user_name=asdasd; comment_text=zxczxczxczxc
+INFO 2020-01-20 15:32:55,057 basehttp 5057 140010416338688 "POST /task/index/add/ HTTP/1.1" 201 81
+INFO 2020-01-20 15:32:56,761 basehttp 5057 140010416338688 "DELETE /task/index/delete/203 HTTP/1.1" 301 0
+INFO 2020-01-20 15:32:56,781 basehttp 5057 140010416338688 "DELETE /task/index/delete/203/ HTTP/1.1" 204 0
+INFO 2020-01-20 15:32:57,696 basehttp 5057 140010416338688 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:32:58,344 basehttp 5057 140010416338688 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:32:58,557 basehttp 5057 140010416338688 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:33:58,178 autoreload 5057 140010476250944 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 15:33:58,495 autoreload 5091 140434863396672 Watching for file changes with StatReloader
+INFO 2020-01-20 15:34:12,332 autoreload 5091 140434863396672 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 15:34:12,584 autoreload 5100 139946758604608 Watching for file changes with StatReloader
+INFO 2020-01-20 15:34:14,449 basehttp 5100 139946697905920 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:34:16,749 serializers 5100 139946697905920 New data added: user_name=asdasd; comment_text=zxc
+INFO 2020-01-20 15:34:16,763 basehttp 5100 139946697905920 "POST /task/index/add/ HTTP/1.1" 201 72
+INFO 2020-01-20 15:34:17,945 basehttp 5100 139946697905920 "DELETE /task/index/delete/204 HTTP/1.1" 301 0
+INFO 2020-01-20 15:34:17,972 basehttp 5100 139946697905920 "DELETE /task/index/delete/204/ HTTP/1.1" 204 0
+INFO 2020-01-20 15:34:18,766 basehttp 5100 139946697905920 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:34:20,148 basehttp 5100 139946697905920 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:34:25,197 serializers 5100 139946697905920 New data added: user_name=asdasdasd; comment_text=xzczxczxczxczxc
+INFO 2020-01-20 15:34:25,212 basehttp 5100 139946697905920 "POST /task/index/add/ HTTP/1.1" 201 87
+INFO 2020-01-20 15:34:28,505 serializers 5100 139946697905920 New data added: user_name=asdasdasd; comment_text=zxczxczxczx
+INFO 2020-01-20 15:34:28,521 basehttp 5100 139946697905920 "POST /task/index/add/ HTTP/1.1" 201 83
+INFO 2020-01-20 15:34:30,017 basehttp 5100 139946697905920 "DELETE /task/index/delete/206 HTTP/1.1" 301 0
+INFO 2020-01-20 15:34:30,039 basehttp 5100 139946697905920 "DELETE /task/index/delete/206/ HTTP/1.1" 204 0
+INFO 2020-01-20 15:34:30,800 basehttp 5100 139946697905920 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:34:31,900 basehttp 5100 139946697905920 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:34:35,774 serializers 5100 139946697905920 New data added: user_name=asdasdasd; comment_text=zxczxczxczxczxc
+INFO 2020-01-20 15:34:35,785 basehttp 5100 139946697905920 "POST /task/index/add/ HTTP/1.1" 201 87
+INFO 2020-01-20 15:34:36,925 basehttp 5100 139946697905920 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:34:37,673 basehttp 5100 139946697905920 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:34:38,048 basehttp 5100 139946697905920 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:34:49,894 basehttp 5100 139946697905920 "GET /admin HTTP/1.1" 301 0
+INFO 2020-01-20 15:34:49,910 basehttp 5100 139946697905920 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-01-20 15:34:49,971 basehttp 5100 139946697905920 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1913
+INFO 2020-01-20 15:34:49,985 basehttp 5100 139946697905920 "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+INFO 2020-01-20 15:34:49,986 basehttp 5100 139946689513216 "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+INFO 2020-01-20 15:34:49,988 basehttp 5100 139946476173056 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18052
+INFO 2020-01-20 15:34:50,194 basehttp 5100 139946476173056 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-01-20 15:34:50,234 basehttp 5100 139946476173056 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1913
+INFO 2020-01-20 15:34:50,291 basehttp 5100 139946476173056 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2020-01-20 15:34:50,336 basehttp 5100 139946476173056 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2020-01-20 15:34:50,344 basehttp 5100 139946697905920 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2020-01-20 15:34:54,834 basehttp 5100 139946697905920 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-01-20 15:34:54,851 basehttp 5100 139946697905920 "GET /admin/ HTTP/1.1" 200 4398
+INFO 2020-01-20 15:34:54,910 basehttp 5100 139946697905920 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2020-01-20 15:34:54,916 basehttp 5100 139946697905920 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2020-01-20 15:34:54,919 basehttp 5100 139946476173056 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2020-01-20 15:34:54,955 basehttp 5100 139946476173056 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2020-01-20 15:35:00,333 basehttp 5100 139946476173056 "GET /admin/comments_block/ HTTP/1.1" 200 2532
+INFO 2020-01-20 15:35:01,652 basehttp 5100 139946476173056 "GET /admin/comments_block/comment/ HTTP/1.1" 200 4623
+INFO 2020-01-20 15:35:01,675 basehttp 5100 139946476173056 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6190
+INFO 2020-01-20 15:35:01,697 basehttp 5100 139946467780352 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+INFO 2020-01-20 15:35:01,700 basehttp 5100 139946459387648 "GET /static/admin/js/core.js HTTP/1.1" 200 5723
+INFO 2020-01-20 15:35:01,702 basehttp 5100 139946450994944 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+INFO 2020-01-20 15:35:01,718 basehttp 5100 139946459387648 "GET /static/admin/js/urlify.js HTTP/1.1" 200 8941
+INFO 2020-01-20 15:35:01,719 basehttp 5100 139946450994944 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+INFO 2020-01-20 15:35:01,724 basehttp 5100 139946697905920 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-01-20 15:35:01,724 basehttp 5100 139946467780352 "GET /static/admin/js/actions.js HTTP/1.1" 200 6766
+INFO 2020-01-20 15:35:01,725 basehttp 5100 139946689513216 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 280364
+INFO 2020-01-20 15:35:01,747 basehttp 5100 139946476173056 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+INFO 2020-01-20 15:35:01,781 basehttp 5100 139946476173056 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2020-01-20 15:35:03,568 basehttp 5100 139946476173056 "GET /admin/comments_block/comment/207/change/ HTTP/1.1" 200 5482
+INFO 2020-01-20 15:35:03,588 basehttp 5100 139946476173056 "GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+INFO 2020-01-20 15:35:03,590 basehttp 5100 139946689513216 "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+INFO 2020-01-20 15:35:03,593 basehttp 5100 139946450994944 "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+INFO 2020-01-20 15:35:03,598 basehttp 5100 139946697905920 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20232
+INFO 2020-01-20 15:35:03,599 basehttp 5100 139946467780352 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 2020-01-20 15:35:03,640 basehttp 5100 139946476173056 "GET /static/admin/css/widgets.css HTTP/1.1" 200 10322
+INFO 2020-01-20 15:35:03,697 basehttp 5100 139946476173056 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2020-01-20 15:35:07,501 basehttp 5100 139946476173056 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:07,566 basehttp 5100 139946476173056 "GET /task/block/ HTTP/1.1" 200 177
+INFO 2020-01-20 15:35:08,747 basehttp 5100 139946476173056 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:12,380 basehttp 5100 139946476173056 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:12,468 basehttp 5100 139946476173056 "GET /task/block/ HTTP/1.1" 200 177
+INFO 2020-01-20 15:35:12,945 basehttp 5100 139946476173056 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:13,117 basehttp 5100 139946476173056 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:15,458 basehttp 5100 139946476173056 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:15,477 log 5100 139946476173056 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:15,479 basehttp 5100 139946476173056 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:15,515 basehttp 5100 139946476173056 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:17,090 basehttp 5100 139946476173056 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:17,095 log 5100 139946476173056 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:17,095 basehttp 5100 139946476173056 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:17,104 basehttp 5100 139946476173056 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:17,177 basehttp 5100 139946476173056 "GET /task/block/ HTTP/1.1" 200 177
+INFO 2020-01-20 15:35:18,135 basehttp 5100 139946476173056 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:18,612 basehttp 5100 139946476173056 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:18,791 basehttp 5100 139946476173056 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:19,000 basehttp 5100 139946476173056 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:19,179 basehttp 5100 139946476173056 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:19,365 basehttp 5100 139946476173056 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:19,579 basehttp 5100 139946476173056 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:19,767 basehttp 5100 139946476173056 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:20,072 basehttp 5100 139946476173056 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:25,512 basehttp 5100 139946476173056 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:25,576 basehttp 5100 139946476173056 "GET /static/css/styles.css HTTP/1.1" 200 3989
+INFO 2020-01-20 15:35:25,578 basehttp 5100 139946467780352 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 200 7834
+INFO 2020-01-20 15:35:25,646 basehttp 5100 139946467780352 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-01-20 15:35:25,664 basehttp 5100 139946467780352 "GET /task/block/ HTTP/1.1" 200 177
+WARNING 2020-01-20 15:35:25,797 log 5100 139946467780352 Not Found: /favicon.ico
+WARNING 2020-01-20 15:35:25,798 basehttp 5100 139946467780352 "GET /favicon.ico HTTP/1.1" 404 2079
+INFO 2020-01-20 15:35:27,007 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:27,030 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:27,031 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:27,063 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:27,804 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:27,835 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:27,836 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:27,902 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:28,212 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:28,246 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:28,247 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:28,318 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:28,463 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:28,479 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:28,479 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:28,536 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:28,744 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:28,763 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:28,765 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:28,796 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:28,999 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:29,030 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:29,030 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:29,062 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:29,215 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:29,223 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:29,224 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:29,275 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:29,438 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:29,454 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:29,455 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:29,471 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:29,650 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:29,660 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:29,660 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:29,683 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:29,856 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:29,865 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:29,865 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:29,889 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:32,807 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:32,828 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:32,828 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:32,880 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:32,942 basehttp 5100 139946467780352 "GET /task/block/ HTTP/1.1" 200 177
+INFO 2020-01-20 15:35:33,139 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:33,160 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:33,162 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:33,230 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:33,450 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:33,466 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:33,466 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:33,491 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:33,791 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:33,803 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:33,804 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:33,850 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:34,115 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:34,122 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:34,122 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:34,145 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:35,742 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:35,748 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:35,750 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:35,773 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:35,912 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:35,928 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:35,928 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:35,947 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:36,098 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:36,105 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:36,105 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:36,122 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:36,264 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:36,275 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:36,276 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:36,302 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:36,447 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:36,462 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:36,463 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:36,481 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:36,627 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:36,635 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:36,635 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:36,708 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:36,958 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:36,966 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:36,966 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:36,989 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:37,053 basehttp 5100 139946467780352 "GET /task/block/ HTTP/1.1" 200 177
+INFO 2020-01-20 15:35:37,141 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:37,146 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:37,147 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:37,168 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:37,312 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:37,323 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:37,324 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:37,347 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:37,497 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:37,508 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:37,510 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:37,566 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:37,701 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:37,715 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:37,715 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:37,744 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:37,862 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:37,873 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:37,873 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:37,897 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:38,035 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:38,044 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:38,044 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:38,067 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:38,206 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:38,212 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:38,213 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:38,236 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:38,408 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:38,430 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:38,431 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:38,458 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:38,581 basehttp 5100 139946467780352 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:35:38,599 log 5100 139946467780352 Forbidden: /task/index/delete/207/
+WARNING 2020-01-20 15:35:38,599 basehttp 5100 139946467780352 "DELETE /task/index/delete/207/ HTTP/1.1" 403 58
+INFO 2020-01-20 15:35:38,647 basehttp 5100 139946467780352 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:43,951 autoreload 5100 139946758604608 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 15:35:44,260 autoreload 5221 139850115155776 Watching for file changes with StatReloader
+INFO 2020-01-20 15:35:45,142 basehttp 5221 139850055243520 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:35:45,226 basehttp 5221 139850055243520 "GET /task/block/ HTTP/1.1" 200 177
+INFO 2020-01-20 15:35:46,181 basehttp 5221 139850055243520 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+INFO 2020-01-20 15:35:46,243 basehttp 5221 139850055243520 "DELETE /task/index/delete/207/ HTTP/1.1" 204 0
+INFO 2020-01-20 15:35:46,661 basehttp 5221 139850055243520 "DELETE /task/index/delete/205 HTTP/1.1" 301 0
+INFO 2020-01-20 15:35:46,702 basehttp 5221 139850055243520 "DELETE /task/index/delete/205/ HTTP/1.1" 204 0
+INFO 2020-01-20 15:36:01,468 autoreload 5221 139850115155776 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 15:36:01,772 autoreload 5238 140230515156800 Watching for file changes with StatReloader
+INFO 2020-01-20 15:36:02,141 basehttp 5238 140230455244544 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:04,949 basehttp 5238 140230455244544 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:05,893 basehttp 5238 140230455244544 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:05,936 log 5238 140230455244544 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:05,937 basehttp 5238 140230455244544 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:05,998 basehttp 5238 140230455244544 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:06,572 basehttp 5238 140230455244544 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:06,604 log 5238 140230455244544 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:06,605 basehttp 5238 140230455244544 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:06,648 basehttp 5238 140230455244544 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:07,037 basehttp 5238 140230455244544 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:07,068 log 5238 140230455244544 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:07,070 basehttp 5238 140230455244544 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:07,163 basehttp 5238 140230455244544 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:07,424 basehttp 5238 140230455244544 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:07,444 log 5238 140230455244544 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:07,445 basehttp 5238 140230455244544 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:07,480 basehttp 5238 140230455244544 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:07,591 basehttp 5238 140230455244544 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:07,612 log 5238 140230455244544 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:07,612 basehttp 5238 140230455244544 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:07,667 basehttp 5238 140230455244544 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:12,795 autoreload 5238 140230515156800 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 15:36:13,269 autoreload 5245 139782012999488 Watching for file changes with StatReloader
+INFO 2020-01-20 15:36:13,749 basehttp 5245 139781953087232 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:14,406 basehttp 5245 139781953087232 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:15,421 basehttp 5245 139781953087232 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:15,453 log 5245 139781953087232 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:15,455 basehttp 5245 139781953087232 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:15,505 basehttp 5245 139781953087232 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:16,128 basehttp 5245 139781953087232 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:16,168 log 5245 139781953087232 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:16,170 basehttp 5245 139781953087232 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:16,207 basehttp 5245 139781953087232 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:16,430 basehttp 5245 139781953087232 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:16,442 log 5245 139781953087232 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:16,443 basehttp 5245 139781953087232 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:16,465 basehttp 5245 139781953087232 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:16,630 basehttp 5245 139781953087232 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:16,649 log 5245 139781953087232 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:16,649 basehttp 5245 139781953087232 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:16,667 basehttp 5245 139781953087232 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:16,837 basehttp 5245 139781953087232 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:16,846 log 5245 139781953087232 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:16,847 basehttp 5245 139781953087232 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:16,867 basehttp 5245 139781953087232 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:17,063 basehttp 5245 139781953087232 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:17,071 log 5245 139781953087232 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:17,071 basehttp 5245 139781953087232 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:17,088 basehttp 5245 139781953087232 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:17,297 basehttp 5245 139781953087232 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:17,325 log 5245 139781953087232 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:17,326 basehttp 5245 139781953087232 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:17,361 basehttp 5245 139781953087232 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:17,551 basehttp 5245 139781953087232 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:17,576 log 5245 139781953087232 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:17,577 basehttp 5245 139781953087232 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:17,601 basehttp 5245 139781953087232 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:18,089 basehttp 5245 139781953087232 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:18,130 log 5245 139781953087232 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:18,131 basehttp 5245 139781953087232 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:18,195 basehttp 5245 139781953087232 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:18,810 basehttp 5245 139781953087232 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:18,842 log 5245 139781953087232 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:18,848 basehttp 5245 139781953087232 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:18,909 basehttp 5245 139781953087232 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:19,402 basehttp 5245 139781953087232 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:19,442 log 5245 139781953087232 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:19,444 basehttp 5245 139781953087232 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:19,499 basehttp 5245 139781953087232 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:20,561 basehttp 5245 139781953087232 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:21,173 basehttp 5245 139781953087232 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:21,584 basehttp 5245 139781953087232 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:21,940 basehttp 5245 139781953087232 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:25,547 autoreload 5245 139782012999488 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 15:36:25,900 autoreload 5250 140669595129664 Watching for file changes with StatReloader
+INFO 2020-01-20 15:36:26,406 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:27,845 basehttp 5250 140669535217408 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:27,896 log 5250 140669535217408 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:27,898 basehttp 5250 140669535217408 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:27,925 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:28,253 basehttp 5250 140669535217408 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:28,277 log 5250 140669535217408 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:28,278 basehttp 5250 140669535217408 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:28,364 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:29,148 basehttp 5250 140669535217408 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:29,178 log 5250 140669535217408 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:29,180 basehttp 5250 140669535217408 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:29,245 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:29,566 basehttp 5250 140669535217408 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:29,584 log 5250 140669535217408 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:29,587 basehttp 5250 140669535217408 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:29,597 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:30,760 basehttp 5250 140669535217408 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:30,778 log 5250 140669535217408 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:30,779 basehttp 5250 140669535217408 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:30,806 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:31,304 basehttp 5250 140669535217408 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:31,344 log 5250 140669535217408 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:31,345 basehttp 5250 140669535217408 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:31,429 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:31,538 basehttp 5250 140669535217408 "DELETE /task/index/delete/207 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:31,547 log 5250 140669535217408 Not Found: /task/index/delete/207/
+WARNING 2020-01-20 15:36:31,547 basehttp 5250 140669535217408 "DELETE /task/index/delete/207/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:31,584 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:32,259 basehttp 5250 140669535217408 "DELETE /task/index/delete/205 HTTP/1.1" 301 0
+WARNING 2020-01-20 15:36:32,306 log 5250 140669535217408 Not Found: /task/index/delete/205/
+WARNING 2020-01-20 15:36:32,308 basehttp 5250 140669535217408 "DELETE /task/index/delete/205/ HTTP/1.1" 404 23
+INFO 2020-01-20 15:36:32,368 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:33,985 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:34,019 basehttp 5250 140669526824704 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 200 7834
+INFO 2020-01-20 15:36:34,020 basehttp 5250 140669535217408 "GET /static/css/styles.css HTTP/1.1" 200 3989
+INFO 2020-01-20 15:36:34,092 basehttp 5250 140669535217408 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-01-20 15:36:34,104 basehttp 5250 140669535217408 "GET /task/block/ HTTP/1.1" 200 2
+WARNING 2020-01-20 15:36:34,161 log 5250 140669535217408 Not Found: /favicon.ico
+WARNING 2020-01-20 15:36:34,161 basehttp 5250 140669535217408 "GET /favicon.ico HTTP/1.1" 404 2079
+INFO 2020-01-20 15:36:35,055 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:35,617 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:36:39,661 basehttp 5250 140669535217408 "GET /admin/ HTTP/1.1" 200 4398
+INFO 2020-01-20 15:36:41,184 basehttp 5250 140669535217408 "GET /admin/ HTTP/1.1" 200 4398
+INFO 2020-01-20 15:36:42,551 basehttp 5250 140669535217408 "GET /admin/comments_block/ HTTP/1.1" 200 2532
+INFO 2020-01-20 15:36:44,372 basehttp 5250 140669535217408 "GET /admin/comments_block/comment/ HTTP/1.1" 200 3208
+INFO 2020-01-20 15:36:50,822 serializers 5250 140669535217408 New data added: user_name=asdasd; comment_text=asdasdasd
+INFO 2020-01-20 15:36:50,839 basehttp 5250 140669535217408 "POST /task/index/add/ HTTP/1.1" 201 78
+INFO 2020-01-20 15:37:42,884 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:37:43,765 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:37:45,804 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:37:45,846 basehttp 5250 140669526824704 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 200 7834
+INFO 2020-01-20 15:37:45,847 basehttp 5250 140669535217408 "GET /static/css/styles.css HTTP/1.1" 200 3989
+INFO 2020-01-20 15:37:45,900 basehttp 5250 140669535217408 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-01-20 15:37:45,911 basehttp 5250 140669535217408 "GET /task/block/ HTTP/1.1" 200 2
+WARNING 2020-01-20 15:37:45,969 log 5250 140669535217408 Not Found: /favicon.ico
+WARNING 2020-01-20 15:37:45,970 basehttp 5250 140669535217408 "GET /favicon.ico HTTP/1.1" 404 2079
+INFO 2020-01-20 15:37:46,719 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:37:47,122 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:37:47,601 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:37:59,774 basehttp 5250 140669516334848 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 200 7834
+INFO 2020-01-20 15:37:59,814 basehttp 5250 140669516334848 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-01-20 15:37:59,837 basehttp 5250 140669516334848 "GET /task/block/ HTTP/1.1" 200 2
+WARNING 2020-01-20 15:37:59,866 log 5250 140669516334848 Not Found: /favicon.ico
+INFO 2020-01-20 15:38:07,780 basehttp 5250 140669516334848 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-01-20 15:38:07,814 basehttp 5250 140669516334848 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1913
+INFO 2020-01-20 15:38:07,888 basehttp 5250 140669305747200 "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+INFO 2020-01-20 15:38:07,888 basehttp 5250 140669297354496 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18052
+INFO 2020-01-20 15:38:07,889 basehttp 5250 140669516334848 "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+INFO 2020-01-20 15:38:07,941 basehttp 5250 140669297354496 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2020-01-20 15:38:07,959 basehttp 5250 140669297354496 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2020-01-20 15:38:07,972 basehttp 5250 140669297354496 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2020-01-20 15:38:09,906 basehttp 5250 140669297354496 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-01-20 15:38:09,950 basehttp 5250 140669297354496 "GET /admin/ HTTP/1.1" 200 4398
+INFO 2020-01-20 15:38:10,011 basehttp 5250 140669297354496 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2020-01-20 15:38:10,013 basehttp 5250 140669297354496 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2020-01-20 15:38:10,070 basehttp 5250 140669516334848 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2020-01-20 15:38:10,070 basehttp 5250 140669297354496 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2020-01-20 15:38:10,090 basehttp 5250 140669297354496 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2020-01-20 15:38:11,311 basehttp 5250 140669297354496 "GET /admin/comments_block/comment/ HTTP/1.1" 200 4384
+INFO 2020-01-20 15:38:11,404 basehttp 5250 140669297354496 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6190
+INFO 2020-01-20 15:38:11,409 basehttp 5250 140669297354496 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+INFO 2020-01-20 15:38:11,411 basehttp 5250 140669297354496 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2020-01-20 15:38:11,412 basehttp 5250 140669305747200 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2020-01-20 15:38:11,420 basehttp 5250 140669305747200 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2020-01-20 15:38:11,422 basehttp 5250 140669280306944 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2020-01-20 15:38:11,422 basehttp 5250 140669288699648 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2020-01-20 15:38:11,425 basehttp 5250 140669305747200 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2020-01-20 15:38:11,433 basehttp 5250 140669516334848 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-01-20 15:38:11,439 basehttp 5250 140669271914240 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2020-01-20 15:38:11,499 basehttp 5250 140669297354496 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2020-01-20 15:38:12,517 basehttp 5250 140669297354496 "GET /admin/comments_block/comment/208/change/ HTTP/1.1" 200 5470
+INFO 2020-01-20 15:38:12,581 basehttp 5250 140669297354496 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-01-20 15:38:12,583 basehttp 5250 140669297354496 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2020-01-20 15:38:12,592 basehttp 5250 140669297354496 "GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+INFO 2020-01-20 15:38:12,594 basehttp 5250 140669516334848 "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+INFO 2020-01-20 15:38:12,596 basehttp 5250 140669305747200 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20232
+INFO 2020-01-20 15:38:12,605 basehttp 5250 140669297354496 "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+INFO 2020-01-20 15:38:12,609 basehttp 5250 140669305747200 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 2020-01-20 15:38:12,634 basehttp 5250 140669297354496 "GET /static/admin/css/widgets.css HTTP/1.1" 200 10322
+INFO 2020-01-20 15:38:12,720 basehttp 5250 140669297354496 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2020-01-20 15:38:16,079 basehttp 5250 140669297354496 "POST /admin/comments_block/comment/208/change/ HTTP/1.1" 302 0
+INFO 2020-01-20 15:38:16,131 basehttp 5250 140669297354496 "GET /admin/comments_block/comment/ HTTP/1.1" 200 4582
+INFO 2020-01-20 15:38:16,263 basehttp 5250 140669297354496 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2020-01-20 15:38:16,343 basehttp 5250 140669305747200 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2020-01-20 15:38:16,346 basehttp 5250 140669297354496 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2020-01-20 15:38:19,845 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:38:20,398 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:38:20,550 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:38:31,478 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:38:31,881 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:38:32,050 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:38:32,227 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:38:34,602 serializers 5250 140669535217408 New data added: user_name=asdasd; comment_text=zxczxc
+INFO 2020-01-20 15:38:34,612 basehttp 5250 140669535217408 "POST /task/index/add/ HTTP/1.1" 201 75
+INFO 2020-01-20 15:38:35,713 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:38:36,411 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:38:36,763 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:38:37,026 basehttp 5250 140669535217408 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:38:41,825 autoreload 5250 140669595129664 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 15:38:42,084 autoreload 5562 139648171910976 Watching for file changes with StatReloader
+INFO 2020-01-20 15:38:54,798 autoreload 5562 139648171910976 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 15:38:55,289 autoreload 5571 139850689234752 Watching for file changes with StatReloader
+INFO 2020-01-20 15:38:57,294 basehttp 5571 139850628536064 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:38:58,107 basehttp 5571 139850628536064 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:38:58,624 basehttp 5571 139850628536064 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:38:58,805 basehttp 5571 139850628536064 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:38:59,007 basehttp 5571 139850628536064 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:39:07,147 serializers 5571 139850628536064 New data added: user_name=zxczxc; comment_text=asdasdasd
+INFO 2020-01-20 15:39:07,159 basehttp 5571 139850628536064 "POST /task/index/add/ HTTP/1.1" 201 78
+INFO 2020-01-20 15:39:08,552 basehttp 5571 139850628536064 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:39:22,381 autoreload 5571 139850689234752 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 15:39:22,864 autoreload 5621 140472645769024 Watching for file changes with StatReloader
+INFO 2020-01-20 15:39:23,041 basehttp 5621 140472586118912 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:39:23,675 basehttp 5621 140472586118912 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:39:23,991 basehttp 5621 140472586118912 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:39:24,178 basehttp 5621 140472586118912 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:40:11,529 autoreload 5621 140472645769024 /home/danyil/projects/result_2/comments/comments_block/views.py changed, reloading.
+INFO 2020-01-20 15:40:11,773 autoreload 5643 139826614941504 Watching for file changes with StatReloader
+INFO 2020-01-20 15:40:13,557 basehttp 5643 139826485524224 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:40:14,008 basehttp 5643 139826485524224 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:40:14,164 basehttp 5643 139826485524224 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:40:14,312 basehttp 5643 139826485524224 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:40:38,333 autoreload 5643 139826614941504 /home/danyil/projects/result_2/comments/comments/settings.py changed, reloading.
+INFO 2020-01-20 15:40:38,591 autoreload 5657 140472244643648 Watching for file changes with StatReloader
+INFO 2020-01-20 15:40:40,887 basehttp 5657 140472183944960 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:40:41,392 basehttp 5657 140472183944960 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:40:41,553 basehttp 5657 140472183944960 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:41:42,965 autoreload 5723 140392049981248 Watching for file changes with StatReloader
+INFO 2020-01-20 15:41:44,521 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:41:47,327 serializers 5723 140391989282560 New data added: user_name=sadasd; comment_text=zxczxczxc
+INFO 2020-01-20 15:41:47,342 basehttp 5723 140391989282560 "POST /task/index/add/ HTTP/1.1" 201 76
+INFO 2020-01-20 15:41:48,113 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:41:48,793 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:41:49,474 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:06,814 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:07,429 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:07,846 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:08,019 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:08,247 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:08,560 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:08,927 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:09,378 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:09,964 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:10,492 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:11,008 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:13,381 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:15,158 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:15,358 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:15,553 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:15,779 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:15,977 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:16,197 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:16,405 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:16,596 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:16,811 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:16,992 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:17,177 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:37,052 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:37,659 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:37,864 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:38,202 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:38,609 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:38,963 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:39,206 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:39,429 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:42:39,691 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:43:29,338 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:43:29,965 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:43:30,195 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:43:32,566 serializers 5723 140391989282560 New data added: user_name=efg; comment_text=wefg
+INFO 2020-01-20 15:43:32,577 basehttp 5723 140391989282560 "POST /task/index/add/ HTTP/1.1" 201 68
+INFO 2020-01-20 15:43:35,217 serializers 5723 140391989282560 New data added: user_name=ewfg; comment_text=wegf
+INFO 2020-01-20 15:43:35,238 basehttp 5723 140391989282560 "POST /task/index/add/ HTTP/1.1" 201 69
+INFO 2020-01-20 15:43:36,705 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:43:37,464 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:43:37,895 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:43:38,078 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:43:38,305 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:43:38,481 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:43:38,692 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:43:38,878 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:43:39,067 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:43:39,278 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:43:39,492 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:43:39,674 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:43:39,870 basehttp 5723 140391989282560 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:43:53,698 basehttp 5723 140391980889856 "GET /task/index/ HTTP/1.1" 200 1621
+WARNING 2020-01-20 15:44:45,322 log 5723 140391980889856 Not Found: /task/1
+WARNING 2020-01-20 15:44:45,322 basehttp 5723 140391980889856 "GET /task/1 HTTP/1.1" 404 3321
+INFO 2020-01-20 15:44:53,059 basehttp 5723 140391980889856 "GET /task/index/1 HTTP/1.1" 301 0
+ERROR 2020-01-20 15:44:53,078 log 5723 140391980889856 Internal Server Error: /task/index/1/
+Traceback (most recent call last):
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 116, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 114, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/comments/comments_block/views.py", line 67, in get
+    comment = self.get_object()
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: get_object() missing 1 required positional argument: 'pk'
+ERROR 2020-01-20 15:44:53,083 basehttp 5723 140391980889856 "GET /task/index/1/ HTTP/1.1" 500 18993
+INFO 2020-01-20 15:44:59,095 basehttp 5723 140391980889856 "GET /task/index/1204 HTTP/1.1" 301 0
+ERROR 2020-01-20 15:44:59,111 log 5723 140391980889856 Internal Server Error: /task/index/1204/
+Traceback (most recent call last):
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 116, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 114, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/comments/comments_block/views.py", line 67, in get
+    comment = self.get_object()
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: get_object() missing 1 required positional argument: 'pk'
+ERROR 2020-01-20 15:44:59,112 basehttp 5723 140391980889856 "GET /task/index/1204/ HTTP/1.1" 500 19008
+INFO 2020-01-20 15:45:01,165 basehttp 5723 140391980889856 "GET /task/index/204 HTTP/1.1" 301 0
+ERROR 2020-01-20 15:45:01,190 log 5723 140391980889856 Internal Server Error: /task/index/204/
+Traceback (most recent call last):
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 116, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 114, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/comments/comments_block/views.py", line 67, in get
+    comment = self.get_object()
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: get_object() missing 1 required positional argument: 'pk'
+ERROR 2020-01-20 15:45:01,191 basehttp 5723 140391980889856 "GET /task/index/204/ HTTP/1.1" 500 19003
+INFO 2020-01-20 15:45:03,442 basehttp 5723 140391980889856 "GET /task/index/203 HTTP/1.1" 301 0
+ERROR 2020-01-20 15:45:03,458 log 5723 140391980889856 Internal Server Error: /task/index/203/
+Traceback (most recent call last):
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 116, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 114, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/comments/comments_block/views.py", line 67, in get
+    comment = self.get_object()
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: get_object() missing 1 required positional argument: 'pk'
+ERROR 2020-01-20 15:45:03,460 basehttp 5723 140391980889856 "GET /task/index/203/ HTTP/1.1" 500 19003
+INFO 2020-01-20 15:45:05,609 basehttp 5723 140391980889856 "GET /task/index/210 HTTP/1.1" 301 0
+ERROR 2020-01-20 15:45:05,619 log 5723 140391980889856 Internal Server Error: /task/index/210/
+Traceback (most recent call last):
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 116, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 114, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/comments/comments_block/views.py", line 67, in get
+    comment = self.get_object()
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: get_object() missing 1 required positional argument: 'pk'
+ERROR 2020-01-20 15:45:05,620 basehttp 5723 140391980889856 "GET /task/index/210/ HTTP/1.1" 500 19003
+INFO 2020-01-20 15:45:07,207 basehttp 5723 140391980889856 "GET /task/index/211 HTTP/1.1" 301 0
+ERROR 2020-01-20 15:45:07,220 log 5723 140391980889856 Internal Server Error: /task/index/211/
+Traceback (most recent call last):
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 116, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 114, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/comments/comments_block/views.py", line 67, in get
+    comment = self.get_object()
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: get_object() missing 1 required positional argument: 'pk'
+ERROR 2020-01-20 15:45:07,221 basehttp 5723 140391980889856 "GET /task/index/211/ HTTP/1.1" 500 19003
+INFO 2020-01-20 15:45:08,329 basehttp 5723 140391980889856 "GET /task/index/212 HTTP/1.1" 301 0
+ERROR 2020-01-20 15:45:08,345 log 5723 140391980889856 Internal Server Error: /task/index/212/
+Traceback (most recent call last):
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 116, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 114, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/comments/comments_block/views.py", line 67, in get
+    comment = self.get_object()
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: get_object() missing 1 required positional argument: 'pk'
+ERROR 2020-01-20 15:45:08,346 basehttp 5723 140391980889856 "GET /task/index/212/ HTTP/1.1" 500 19003
+INFO 2020-01-20 15:45:09,356 basehttp 5723 140391980889856 "GET /task/index/21 HTTP/1.1" 301 0
+ERROR 2020-01-20 15:45:09,394 log 5723 140391980889856 Internal Server Error: /task/index/21/
+Traceback (most recent call last):
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 116, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 114, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/comments/comments_block/views.py", line 67, in get
+    comment = self.get_object()
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: get_object() missing 1 required positional argument: 'pk'
+ERROR 2020-01-20 15:45:09,395 basehttp 5723 140391980889856 "GET /task/index/21/ HTTP/1.1" 500 18998
+INFO 2020-01-20 15:45:10,675 basehttp 5723 140391980889856 "GET /task/index/213 HTTP/1.1" 301 0
+ERROR 2020-01-20 15:45:10,695 log 5723 140391980889856 Internal Server Error: /task/index/213/
+Traceback (most recent call last):
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 116, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 114, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/comments/comments_block/views.py", line 67, in get
+    comment = self.get_object()
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: get_object() missing 1 required positional argument: 'pk'
+ERROR 2020-01-20 15:45:10,696 basehttp 5723 140391980889856 "GET /task/index/213/ HTTP/1.1" 500 19003
+INFO 2020-01-20 15:45:11,933 basehttp 5723 140391980889856 "GET /task/index/214 HTTP/1.1" 301 0
+ERROR 2020-01-20 15:45:11,957 log 5723 140391980889856 Internal Server Error: /task/index/214/
+Traceback (most recent call last):
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 116, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 114, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/comments/comments_block/views.py", line 67, in get
+    comment = self.get_object()
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: get_object() missing 1 required positional argument: 'pk'
+ERROR 2020-01-20 15:45:11,959 basehttp 5723 140391980889856 "GET /task/index/214/ HTTP/1.1" 500 19003
+INFO 2020-01-20 15:45:13,252 basehttp 5723 140391980889856 "GET /task/index/215 HTTP/1.1" 301 0
+ERROR 2020-01-20 15:45:13,275 log 5723 140391980889856 Internal Server Error: /task/index/215/
+Traceback (most recent call last):
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 116, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 114, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/comments/comments_block/views.py", line 67, in get
+    comment = self.get_object()
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: get_object() missing 1 required positional argument: 'pk'
+ERROR 2020-01-20 15:45:13,276 basehttp 5723 140391980889856 "GET /task/index/215/ HTTP/1.1" 500 19003
+INFO 2020-01-20 15:45:15,010 basehttp 5723 140391980889856 "GET /task/index/1 HTTP/1.1" 301 0
+ERROR 2020-01-20 15:45:15,025 log 5723 140391980889856 Internal Server Error: /task/index/1/
+Traceback (most recent call last):
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 116, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 114, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/comments/comments_block/views.py", line 67, in get
+    comment = self.get_object()
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: get_object() missing 1 required positional argument: 'pk'
+ERROR 2020-01-20 15:45:15,025 basehttp 5723 140391980889856 "GET /task/index/1/ HTTP/1.1" 500 18993
+INFO 2020-01-20 15:45:16,643 basehttp 5723 140391980889856 "GET /task/index/0 HTTP/1.1" 301 0
+ERROR 2020-01-20 15:45:16,666 log 5723 140391980889856 Internal Server Error: /task/index/0/
+Traceback (most recent call last):
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 116, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 114, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/comments/comments_block/views.py", line 67, in get
+    comment = self.get_object()
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: get_object() missing 1 required positional argument: 'pk'
+ERROR 2020-01-20 15:45:16,666 basehttp 5723 140391980889856 "GET /task/index/0/ HTTP/1.1" 500 18993
+INFO 2020-01-20 15:47:41,034 autoreload 6369 140478287271744 Watching for file changes with StatReloader
+INFO 2020-01-20 15:47:43,601 basehttp 6369 140478226573056 "GET /task/index/1 HTTP/1.1" 301 0
+ERROR 2020-01-20 15:47:43,618 log 6369 140478226573056 Internal Server Error: /task/index/1/
+Traceback (most recent call last):
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 116, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 114, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/comments/comments_block/views.py", line 67, in get
+    comment = self.get_object()
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: get_object() missing 1 required positional argument: 'pk'
+ERROR 2020-01-20 15:47:43,619 basehttp 6369 140478226573056 "GET /task/index/1/ HTTP/1.1" 500 18993
+INFO 2020-01-20 15:47:56,107 basehttp 6369 140478217656064 "GET /task/index/1 HTTP/1.1" 301 0
+ERROR 2020-01-20 15:47:56,162 log 6369 140478217656064 Internal Server Error: /task/index/1/
+Traceback (most recent call last):
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 116, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 114, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/comments/comments_block/views.py", line 67, in get
+    comment = self.get_object()
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+TypeError: get_object() missing 1 required positional argument: 'pk'
+ERROR 2020-01-20 15:47:56,163 basehttp 6369 140478217656064 "GET /task/index/1/ HTTP/1.1" 500 109271
+ERROR 2020-01-20 15:48:17,180 log 6369 140478217656064 Internal Server Error: /task/block/1/
+Traceback (most recent call last):
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 116, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 114, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/danyil/projects/result_2/venv/lib/python3.7/site-packages/django/views/decorators/vary.py", line 38, in inner_func
+    response = func(*args, **kwargs)
+TypeError: get() got an unexpected keyword argument 'pk'
+ERROR 2020-01-20 15:48:17,183 basehttp 6369 140478217656064 "GET /task/block/1/ HTTP/1.1" 500 117228
+INFO 2020-01-20 15:48:22,601 basehttp 6369 140478217656064 "GET /task/block/ HTTP/1.1" 200 10169
+INFO 2020-01-20 15:48:22,632 basehttp 6369 140478217656064 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2020-01-20 15:48:22,646 basehttp 6369 140478199715584 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2020-01-20 15:48:22,658 basehttp 6369 140478217656064 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2020-01-20 15:48:22,661 basehttp 6369 140478209263360 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2020-01-20 15:48:22,662 basehttp 6369 140478191322880 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2020-01-20 15:48:22,662 basehttp 6369 140477835765504 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2020-01-20 15:48:22,663 basehttp 6369 140478199715584 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2020-01-20 15:48:22,664 basehttp 6369 140477844158208 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+INFO 2020-01-20 15:48:22,671 basehttp 6369 140478209263360 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2020-01-20 15:48:22,673 basehttp 6369 140478191322880 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2020-01-20 15:48:22,685 basehttp 6369 140478191322880 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2020-01-20 15:49:17,909 basehttp 6369 140478199715584 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:49:17,978 basehttp 6369 140478217656064 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 200 7708
+INFO 2020-01-20 15:49:17,979 basehttp 6369 140478199715584 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-01-20 15:49:18,020 basehttp 6369 140478217656064 "GET /task/block/ HTTP/1.1" 200 217
+INFO 2020-01-20 15:49:18,899 basehttp 6369 140478217656064 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:49:20,123 basehttp 6369 140478217656064 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:49:20,161 basehttp 6369 140478217656064 "GET /static/css/styles.css HTTP/1.1" 200 3989
+INFO 2020-01-20 15:49:20,164 basehttp 6369 140478199715584 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 200 7708
+INFO 2020-01-20 15:49:20,234 basehttp 6369 140478199715584 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-01-20 15:49:20,237 basehttp 6369 140478199715584 "GET /task/block/ HTTP/1.1" 200 217
+WARNING 2020-01-20 15:49:20,350 log 6369 140478199715584 Not Found: /favicon.ico
+WARNING 2020-01-20 15:49:20,350 basehttp 6369 140478199715584 "GET /favicon.ico HTTP/1.1" 404 2079
+INFO 2020-01-20 15:49:22,956 basehttp 6369 140478199715584 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:49:26,710 serializers 6369 140478199715584 New data added: user_name=fsdfas; comment_text=sadfasdfasdf
+INFO 2020-01-20 15:49:26,732 basehttp 6369 140478199715584 "POST /task/index/add/ HTTP/1.1" 201 79
+INFO 2020-01-20 15:49:27,871 basehttp 6369 140478199715584 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:49:27,993 basehttp 6369 140478199715584 "GET /task/block/ HTTP/1.1" 200 297
+INFO 2020-01-20 15:49:28,621 basehttp 6369 140478199715584 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:49:29,193 basehttp 6369 140478199715584 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:49:29,570 basehttp 6369 140478199715584 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:49:31,951 basehttp 6369 140478199715584 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:49:32,072 basehttp 6369 140478199715584 "GET /task/block/ HTTP/1.1" 200 297
+INFO 2020-01-20 15:49:34,689 basehttp 6369 140478199715584 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:49:34,716 basehttp 6369 140478199715584 "GET /static/css/styles.css HTTP/1.1" 200 3989
+INFO 2020-01-20 15:49:34,719 basehttp 6369 140478217656064 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 200 7708
+INFO 2020-01-20 15:49:34,797 basehttp 6369 140478217656064 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-01-20 15:49:34,818 basehttp 6369 140478217656064 "GET /task/block/ HTTP/1.1" 200 297
+WARNING 2020-01-20 15:49:34,902 log 6369 140478217656064 Not Found: /favicon.ico
+WARNING 2020-01-20 15:49:34,904 basehttp 6369 140478217656064 "GET /favicon.ico HTTP/1.1" 404 2079
+INFO 2020-01-20 15:52:23,766 serializers 6369 140478217656064 New data added: user_name=gjhfgjh; comment_text=fgjhfghj
+INFO 2020-01-20 15:52:23,792 basehttp 6369 140478217656064 "POST /task/index/add/ HTTP/1.1" 201 76
+INFO 2020-01-20 15:52:29,536 views 6369 140478217656064 1 comment has been changed from "zxczxczxc" to "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+INFO 2020-01-20 15:52:29,539 views 6369 140478199715584 1 comment has been changed from "zxczxczxc" to "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+INFO 2020-01-20 15:52:29,582 basehttp 6369 140478199715584 "PUT /task/index/edit/1/ HTTP/1.1" 200 0
+INFO 2020-01-20 15:52:29,585 basehttp 6369 140478217656064 "PUT /task/index/edit/1/ HTTP/1.1" 200 0
+INFO 2020-01-20 15:52:37,165 basehttp 6369 140478217656064 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:52:37,243 basehttp 6369 140478217656064 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 15:52:37,294 basehttp 6369 140478217656064 "GET /task/block/ HTTP/1.1" 200 409
+INFO 2020-01-20 15:53:21,614 basehttp 6369 140478217656064 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-01-20 15:53:21,780 basehttp 6369 140478217656064 "GET /task/block/ HTTP/1.1" 200 409
+INFO 2020-01-20 15:56:31,332 autoreload 6774 139786519787328 Watching for file changes with StatReloader
+WARNING 2020-01-20 15:56:33,789 log 6774 139786459088640 Not Found: /blog/
+WARNING 2020-01-20 15:56:33,790 basehttp 6774 139786459088640 "GET /blog/ HTTP/1.1" 404 2061
+WARNING 2020-01-20 15:56:33,893 log 6774 139786459088640 Not Found: /favicon.ico
+INFO 2020-01-20 15:56:42,172 basehttp 6774 139786459088640 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 304 0
+INFO 2020-01-20 15:56:42,194 basehttp 6774 139786459088640 "GET /task/block/ HTTP/1.1" 200 409
+INFO 2020-02-12 10:06:00,056 autoreload 17375 140526010222400 Watching for file changes with StatReloader
+WARNING 2020-02-12 10:06:02,618 log 17375 140525949511424 Not Found: /
+WARNING 2020-02-12 10:06:02,619 basehttp 17375 140525949511424 "GET / HTTP/1.1" 404 2028
+WARNING 2020-02-12 10:06:02,708 log 17375 140525949511424 Not Found: /favicon.ico
+WARNING 2020-02-12 10:06:02,708 basehttp 17375 140525949511424 "GET /favicon.ico HTTP/1.1" 404 2079
+WARNING 2020-02-12 10:06:07,913 log 17375 140525949511424 Not Found: /task/
+WARNING 2020-02-12 10:06:07,914 basehttp 17375 140525949511424 "GET /task/ HTTP/1.1" 404 3318
+INFO 2020-02-12 10:06:12,041 basehttp 17375 140525949511424 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-02-12 10:06:12,069 basehttp 17375 140525949511424 "GET /static/css/styles.css HTTP/1.1" 200 3989
+INFO 2020-02-12 10:06:12,070 basehttp 17375 140525940750080 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 200 7708
+INFO 2020-02-12 10:06:12,103 basehttp 17375 140525940750080 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-02-12 10:06:12,108 basehttp 17375 140525940750080 "GET /task/block/ HTTP/1.1" 200 409
+INFO 2020-02-12 10:06:32,740 basehttp 17375 140525931833088 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-02-12 10:06:32,800 basehttp 17375 140525931833088 "GET /static/css/styles.css HTTP/1.1" 200 3989
+INFO 2020-02-12 10:06:32,802 basehttp 17375 140525923440384 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 200 7708
+INFO 2020-02-12 10:06:32,852 basehttp 17375 140525923440384 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-02-12 10:06:32,857 basehttp 17375 140525923440384 "GET /task/block/ HTTP/1.1" 200 409
+WARNING 2020-02-12 10:06:32,955 log 17375 140525923440384 Not Found: /favicon.ico
+WARNING 2020-02-12 10:06:32,955 basehttp 17375 140525923440384 "GET /favicon.ico HTTP/1.1" 404 2079
+INFO 2020-02-12 10:06:53,041 basehttp 17375 140525923440384 "DELETE /task/index/delete/5 HTTP/1.1" 301 0
+INFO 2020-02-12 10:06:53,067 basehttp 17375 140525923440384 "DELETE /task/index/delete/5/ HTTP/1.1" 204 0
+INFO 2020-02-12 10:06:54,611 basehttp 17375 140525940750080 "GET /task/index/ HTTP/1.1" 200 1621
+INFO 2020-02-12 10:06:54,637 basehttp 17375 140525940750080 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2020-02-12 10:06:54,638 basehttp 17375 140525949511424 "GET /static/js/scripts.js?ver=1.1 HTTP/1.1" 200 7708
+INFO 2020-02-12 10:06:54,673 basehttp 17375 140525940750080 "GET /task/block HTTP/1.1" 301 0
+INFO 2020-02-12 10:06:54,678 basehttp 17375 140525940750080 "GET /task/block/ HTTP/1.1" 200 332

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c304ae1a-f391-4db4-9217-e8eb4a83cd3c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/comments/comments_block/static/js/scripts.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1WKYy4SccODWhNxYfHr613daMdZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/tasks/adminka" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/comments/static/js" />
+      <recent name="$PROJECT_DIR$/comments/comments_block/templates" />
+      <recent name="$PROJECT_DIR$/comments/static/css" />
+      <recent name="$PROJECT_DIR$/comments" />
+      <recent name="$PROJECT_DIR$/comments/comments_block/static/js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/comments/comments_block/static/css" />
+      <recent name="$PROJECT_DIR$/comments/comments_block" />
+      <recent name="$PROJECT_DIR$/comments/comments_block/templates" />
+      <recent name="$PROJECT_DIR$/comments/comments_block/templates/comments_block" />
+      <recent name="$PROJECT_DIR$/comments/comments_block/statics/js" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c304ae1a-f391-4db4-9217-e8eb4a83cd3c" name="Default Changelist" comment="" />
+      <created>1578900004881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578900004881</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="178" y="288" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579267516736">
+      <screen x="0" y="180" width="1440" height="900" />
+    </state>
+    <state x="178" y="288" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.0.1920.1080/0.180.1440.900@0.180.1440.900" timestamp="1579267516736" />
+    <state x="503" y="388" width="424" height="491" key="FileChooserDialogImpl" timestamp="1581592333192">
+      <screen x="0" y="180" width="1440" height="900" />
+    </state>
+    <state x="503" y="388" width="424" height="491" key="FileChooserDialogImpl/1440.0.1920.1080/0.180.1440.900@0.180.1440.900" timestamp="1581592333192" />
+    <state x="376" y="457" key="com.intellij.ide.util.TipDialog" timestamp="1579600954060">
+      <screen x="0" y="180" width="1440" height="900" />
+    </state>
+    <state x="376" y="457" key="com.intellij.ide.util.TipDialog/1440.0.1920.1080/0.180.1440.900@0.180.1440.900" timestamp="1579600954060" />
+    <state x="1941" y="332" key="com.intellij.ide.util.TipDialog/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1579161394294" />
+    <state x="383" y="374" width="672" height="678" key="search.everywhere.popup" timestamp="1578910398498">
+      <screen x="0" y="180" width="1440" height="900" />
+    </state>
+    <state x="383" y="374" width="672" height="678" key="search.everywhere.popup/1440.0.1920.1080/0.180.1440.900@0.180.1440.900" timestamp="1578910398498" />
+  </component>
+</project>
